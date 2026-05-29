@@ -1,0 +1,297 @@
+[
+  {
+    "name": "Abandon Attachments",
+    "printed_name": "Dejar ir las ataduras",
+    "printed_text": "Puedes descartar una carta. Si lo haces, roba dos cartas."
+  },
+  {
+    "name": "Academic Probation",
+    "printed_name": "Suspensión académica",
+    "printed_text": "Elige uno:\n• Elige un nombre de carta que no sea tierra. Los oponentes no pueden lanzar hechizos con el nombre elegido hasta tu próximo turno.\n• Elige el permanente objetivo que no sea tierra. Hasta tu próximo turno, no puede atacar ni bloquear y sus habilidades activadas no pueden activarse."
+  },
+  {
+    "name": "Accumulate Wisdom",
+    "printed_name": "Recibir conocimiento",
+    "printed_text": "Mira las tres primeras cartas de tu biblioteca. Pon una de esas cartas en tu mano y el resto en el fondo de tu biblioteca en cualquier orden. En vez de eso, pon cada una de esas cartas en tu mano si hay tres o más cartas de Lección en tu cementerio."
+  },
+  {
+    "name": "Airbender's Reversal",
+    "printed_name": "Inversión del maestro del aire",
+    "printed_text": "Elige uno:\n* Destruye la criatura atacante objetivo.\n* Controla el aire en torno a la criatura objetivo que controlas. (Exíliala. Mientras esté exiliada, su propietario puede lanzarla pagando {2} en vez de su coste de maná.)"
+  },
+  {
+    "name": "Airbending Lesson",
+    "printed_name": "Lección de control del aire",
+    "printed_text": "Controla el aire en torno al permanente objetivo que no sea tierra. (Exílialo. Mientras esté exiliado, su propietario puede lanzarlo pagando {2} en vez de su coste de maná.)\nRoba una carta."
+  },
+  {
+    "name": "Azula Always Lies",
+    "printed_name": "Azula siempre miente",
+    "printed_text": "Elige uno o ambos:\n* La criatura objetivo obtiene -1/-1 hasta el final del turno.\n* Pon un contador +1/+1 sobre la criatura objetivo."
+  },
+  {
+    "name": "Basic Conjuration",
+    "printed_name": "Conjuración básica",
+    "printed_text": "Mira las seis primeras cartas de tu biblioteca. Puedes mostrar una carta de criatura de entre ellas y ponerla en tu mano. Pon el resto en el fondo de tu biblioteca en un orden aleatorio. Ganas 3 vidas."
+  },
+  {
+    "name": "Boomerang Basics",
+    "printed_name": "Fundamentos del búmeran",
+    "printed_text": "Regresa el permanente objetivo que no sea tierra a la mano de su propietario. Si controlabas ese permanente, roba una carta."
+  },
+  {
+    "name": "Combustion Technique",
+    "printed_name": "Técnica de combustión",
+    "printed_text": "La Técnica de combustión hace una cantidad de daño igual a 2 más la cantidad de cartas de Lección en tu cementerio a la criatura objetivo. Si esa criatura fuera a morir este turno, en vez de eso, exíliala."
+  },
+  {
+    "name": "Confront the Past",
+    "printed_name": "Enfrentarse al pasado",
+    "printed_text": "Elige uno:\n• Regresa la carta de planeswalker objetivo con valor de maná de X o menos de tu cementerio al campo de batalla.\n• Remueve el doble de X contadores de lealtad del planeswalker objetivo que controla un oponente."
+  },
+  {
+    "name": "Containment Breach",
+    "printed_name": "Brecha en la contención",
+    "printed_text": "Destruye el artefacto o encantamiento objetivo. Si su valor de maná es de 2 o menos, crea una ficha de criatura Plaga negra y verde 1/1 con \"Cuando esta criatura muera, ganas 1 vida\"."
+  },
+  {
+    "name": "Cycle of Renewal",
+    "printed_name": "Ciclo de renovación",
+    "printed_text": "Sacrifica una tierra. Busca en tu biblioteca hasta dos cartas de tierra básica, ponlas en el campo de batalla giradas y luego baraja."
+  },
+  {
+    "name": "Dai Li Indoctrination",
+    "printed_name": "Adoctrinamiento del Dai Li",
+    "printed_text": "Elige uno:\n* El oponente objetivo muestra su mano. Tú eliges de ahí una carta de permanente que no sea tierra. Ese jugador descarta esa carta.\n* Controla la tierra 2. (La tierra objetivo que controlas se convierte en una criatura 0/0 con la habilidad de prisa que sigue siendo una tierra. Pon dos contadores +1/+1 sobre ella. Cuando muera o sea exiliada, regrésala al campo de batalla girada.)"
+  },
+  {
+    "name": "Decorum Dissertation",
+    "printed_name": "Tesis sobre el decoro",
+    "printed_text": "El jugador objetivo roba dos cartas y pierde 2 vidas.\nParadigma. (Luego exilia este hechizo. Después de resolver un hechizo con este nombre por primera vez, puedes lanzar una copia de él desde el exilio sin pagar su coste de maná al comienzo de cada una de tus primeras fases principales.)"
+  },
+  {
+    "name": "Earthbending Lesson",
+    "printed_name": "Lección de control de la tierra",
+    "printed_text": "Controla la tierra 4. (La tierra objetivo que controlas se convierte en una criatura 0/0 con la habilidad de prisa que sigue siendo una tierra. Pon cuatro contadores +1/+1 sobre ella. Cuando muera o sea exiliada, regrésala al campo de batalla girada.)"
+  },
+  {
+    "name": "Echocasting Symposium",
+    "printed_name": "Simposio de conjura de ecos",
+    "printed_text": "El jugador objetivo crea una ficha que es una copia de la criatura objetivo que controlas.\nParadigma. (Luego exilia este hechizo. Después de resolver un hechizo con este nombre por primera vez, puedes lanzar una copia de él desde el exilio sin pagar su coste de maná al comienzo de cada una de tus primeras fases principales.)"
+  },
+  {
+    "name": "Elemental Summoning",
+    "printed_name": "Invocación elemental",
+    "printed_text": "Crea una ficha de criatura Elemental azul y roja 4/4."
+  },
+  {
+    "name": "Energybending",
+    "printed_name": "Control de la energía",
+    "printed_text": "Las tierras que controlas ganan todos los tipos de tierra básica hasta el final del turno.\nRoba una carta."
+  },
+  {
+    "name": "Enter the Avatar State",
+    "printed_name": "Entrar en estado Avatar",
+    "printed_text": "Hasta el final del turno, la criatura objetivo que controlas se convierte en un Avatar además de sus otros tipos y gana las habilidades de volar, dañar primero, vínculo vital y antimaleficio. (Una criatura con la habilidad de antimaleficio no puede ser objetivo de hechizos o habilidades que controlan tus oponentes.)"
+  },
+  {
+    "name": "Environmental Sciences",
+    "printed_name": "Ciencias ambientales",
+    "printed_text": "Busca en tu biblioteca una carta de tierra básica, muéstrala, ponla en tu mano y luego baraja. Ganas 2 vidas."
+  },
+  {
+    "name": "Expanded Anatomy",
+    "printed_name": "Anatomía expandida",
+    "printed_text": "Pon dos contadores +1/+1 sobre la criatura objetivo. Gana la habilidad de vigilancia hasta el final del turno."
+  },
+  {
+    "name": "Fancy Footwork",
+    "printed_name": "Mover los pies con ritmo",
+    "printed_text": "Endereza una o dos criaturas objetivo. Cada una obtiene +2/+2 hasta el final del turno."
+  },
+  {
+    "name": "Firebending Lesson",
+    "printed_name": "Lección de control del fuego",
+    "printed_text": "Estímulo {4}. (Puedes pagar {4} adicionales al lanzar este hechizo.)\nLa Lección de control del fuego hace 2 puntos de daño a la criatura objetivo. Si este hechizo fue estimulado, en vez de eso, hace 5 puntos de daño a esa criatura."
+  },
+  {
+    "name": "Fractal Summoning",
+    "printed_name": "Invocación de fractales",
+    "printed_text": "Crea una ficha de criatura Fractal verde y azul 0/0. Pon X contadores +1/+1 sobre ella."
+  },
+  {
+    "name": "Germination Practicum",
+    "printed_name": "Prácticas de germinación",
+    "printed_text": "Pon dos contadores +1/+1 sobre cada criatura que controlas.\nParadigma. (Luego exilia este hechizo. Después de resolver un hechizo con este nombre por primera vez, puedes lanzar una copia de él desde el exilio sin pagar su coste de maná al comienzo de cada una de tus primeras fases principales.)"
+  },
+  {
+    "name": "How to Start a Riot",
+    "printed_name": "Cómo empezar un motín",
+    "printed_text": "La criatura objetivo gana la habilidad de amenaza hasta el final del turno. (No puede ser bloqueada excepto por dos o más criaturas.)\nLas criaturas que controla el jugador objetivo obtienen +2/+0 hasta el final del turno."
+  },
+  {
+    "name": "Illuminate History",
+    "printed_name": "Iluminar la historia",
+    "printed_text": "Descarta cualquier cantidad de cartas y luego roba esa misma cantidad de cartas. Luego, si hay siete o más cartas en tu cementerio, crea una ficha de criatura Espíritu roja y blanca 3/2."
+  },
+  {
+    "name": "Improvisation Capstone",
+    "printed_name": "Cumbre de la improvisación",
+    "printed_text": "Exilia cartas de la parte superior de tu biblioteca hasta que exilies cartas con valor de maná total de 4 o más. Puedes lanzar cualquier cantidad de hechizos de entre ellas sin pagar sus costes de maná.\nParadigma. (Luego exilia este hechizo. Después de resolver un hechizo con este nombre por primera vez, puedes lanzar una copia de él desde el exilio sin pagar su coste de maná al comienzo de cada una de tus primeras fases principales.)"
+  },
+  {
+    "name": "Inkling Summoning",
+    "printed_name": "Invocación de tintícolas",
+    "printed_text": "Crea una ficha de criatura Tintícola blanca y negra 2/1 con la habilidad de volar."
+  },
+  {
+    "name": "Introduction to Annihilation",
+    "printed_name": "Fundamentos de aniquilación",
+    "printed_text": "Exilia el permanente objetivo que no sea tierra. Su controlador roba una carta."
+  },
+  {
+    "name": "Introduction to Prophecy",
+    "printed_name": "Fundamentos de profecía",
+    "printed_text": "Adivina 2, luego roba una carta."
+  },
+  {
+    "name": "Iroh's Demonstration",
+    "printed_name": "Demostración de Iroh",
+    "printed_text": "Elige uno:\n* La Demostración de Iroh hace 1 punto de daño a cada criatura que controlan tus oponentes.\n* La Demostración de Iroh hace 4 puntos de daño a la criatura objetivo."
+  },
+  {
+    "name": "It'll Quench Ya!",
+    "printed_name": "¡Te quitará la sed!",
+    "printed_text": "Contrarresta el hechizo objetivo a menos que su controlador pague {2}."
+  },
+  {
+    "name": "Mascot Exhibition",
+    "printed_name": "Exhibición de mascotas",
+    "printed_text": "Crea una ficha de criatura Tintícola blanca y negra 2/1 con la habilidad de volar, una ficha de criatura Espíritu roja y blanca 3/2 y una ficha de criatura Elemental azul y roja 4/4."
+  },
+  {
+    "name": "Match the Odds",
+    "printed_name": "Igualar las tornas",
+    "printed_text": "Crea una ficha de criatura Aliado blanca 1/1. Pon un contador +1/+1 sobre ella por cada criatura que controlan tus oponentes."
+  },
+  {
+    "name": "Mercurial Transformation",
+    "printed_name": "Transformación errática",
+    "printed_text": "Hasta el final del turno, el permanente objetivo que no sea tierra pierde todas las habilidades y se convierte en una criatura Rana azul con fuerza y resistencia base de 1/1 o una criatura Pulpo azul con fuerza y resistencia base de 4/4, a tu elección."
+  },
+  {
+    "name": "Necrotic Fumes",
+    "printed_name": "Vapores necróticos",
+    "printed_text": "Como coste adicional para lanzar este hechizo, exilia una criatura que controlas.\nExilia la criatura o planeswalker objetivo."
+  },
+  {
+    "name": "Octopus Form",
+    "printed_name": "Forma Pulpo",
+    "printed_text": "La criatura objetivo que controlas obtiene +1/+1 y gana la habilidad de antimaleficio hasta el final del turno. Enderézala. (No puede ser objetivo de hechizos o habilidades que controlan tus oponentes.)"
+  },
+  {
+    "name": "Origin of Metalbending",
+    "printed_name": "Origen del control del metal",
+    "printed_text": "Elige uno:\n* Destruye el artefacto o encantamiento objetivo.\n* Pon un contador +1/+1 sobre la criatura objetivo que controlas. Gana la habilidad de indestructible hasta el final del turno. (El daño y los efectos que dicen \"destruir\" no la destruyen.)"
+  },
+  {
+    "name": "Ozai's Cruelty",
+    "printed_name": "Crueldad de Ozai",
+    "printed_text": "La Crueldad de Ozai hace 2 puntos de daño al jugador objetivo. Ese jugador descarta dos cartas."
+  },
+  {
+    "name": "Pest Summoning",
+    "printed_name": "Invocación de plagas",
+    "printed_text": "Crea dos fichas de criatura Plaga negras y verdes 1/1 con \"Cuando esta criatura muera, ganas 1 vida\"."
+  },
+  {
+    "name": "Price of Freedom",
+    "printed_name": "Precio de la libertad",
+    "printed_text": "Destruye el artefacto o tierra objetivo que controla un oponente. Su controlador puede buscar en su biblioteca una carta de tierra básica, ponerla en el campo de batalla girada y luego barajar.\nRoba una carta."
+  },
+  {
+    "name": "Redirect Lightning",
+    "printed_name": "Redirigir el rayo",
+    "printed_text": "Como coste adicional para lanzar este hechizo, paga 5 vidas o paga {2}.\nCambia el objetivo del hechizo o la habilidad objetivo que tenga un solo objetivo."
+  },
+  {
+    "name": "Reduce to Memory",
+    "printed_name": "Reducir a un recuerdo",
+    "printed_text": "Exilia el permanente objetivo que no sea tierra. Su controlador crea una ficha de criatura Espíritu roja y blanca 3/2."
+  },
+  {
+    "name": "Restoration Seminar",
+    "printed_name": "Seminario de restauración",
+    "printed_text": "Regresa la carta de permanente objetivo que no sea tierra de tu cementerio al campo de batalla.\nParadigma. (Luego exilia este hechizo. Después de resolver un hechizo con este nombre por primera vez, puedes lanzar una copia de él desde el exilio sin pagar su coste de maná al comienzo de cada una de tus primeras fases principales.)"
+  },
+  {
+    "name": "Rockalanche",
+    "printed_name": "Rocavalancha",
+    "printed_text": "Controla la tierra X, donde X es la cantidad de Bosques que controlas. (La tierra objetivo que controlas se convierte en una criatura 0/0 con la habilidad de prisa que sigue siendo una tierra. Pon X contadores +1/+1 sobre ella. Cuando muera o sea exiliada, regrésala al campo de batalla girada.)\nRetrospectiva {5G}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)"
+  },
+  {
+    "name": "Ruinous Waterbending",
+    "printed_name": "Control del agua funesto",
+    "printed_text": "Como coste adicional para lanzar este hechizo, puedes controlar el agua {4}. (Al pagar un coste de controlar el agua, puedes girar tus artefactos y criaturas para que te ayuden. Cada uno cuenta como un pago de {1}.)\nTodas las criaturas obtienen -2/-2 hasta el final del turno. Si se pagó el coste adicional de este hechizo, siempre que una criatura muera este turno, ganas 1 vida."
+  },
+  {
+    "name": "Seismic Sense",
+    "printed_name": "Sentido sísmico",
+    "printed_text": "Mira las X primeras cartas de tu biblioteca, donde X es la cantidad de tierras que controlas. Puedes mostrar una carta de criatura o de tierra de entre ellas y ponerla en tu mano. Pon el resto en el fondo de tu biblioteca en un orden aleatorio."
+  },
+  {
+    "name": "Shared Roots",
+    "printed_name": "Raíces compartidas",
+    "printed_text": "Busca en tu biblioteca una carta de tierra básica, ponla en el campo de batalla girada y luego baraja."
+  },
+  {
+    "name": "Sokka's Haiku",
+    "printed_name": "Haiku de Sokka",
+    "printed_text": "Contrarresta el hechizo objetivo.\nRoba una carta y luego muele tres cartas.\nEndereza la tierra objetivo."
+  },
+  {
+    "name": "Solstice Revelations",
+    "printed_name": "Revelaciones del solsticio",
+    "printed_text": "Exilia cartas de la parte superior de tu biblioteca hasta que exilies una carta que no sea tierra. Puedes lanzar esa carta sin pagar su coste de maná si el valor de maná del hechizo es menor que la cantidad de Montañas que controlas. Si no lanzas esa carta de esta manera, ponla en tu mano.\nRetrospectiva {6R}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)"
+  },
+  {
+    "name": "Spirit Summoning",
+    "printed_name": "Invocación de espíritus",
+    "printed_text": "Crea una ficha de criatura Espíritu roja y blanca 3/2."
+  },
+  {
+    "name": "Start from Scratch",
+    "printed_name": "Empezar de cero",
+    "printed_text": "Elige uno:\n• Empezar de cero hace 1 punto de daño a cualquier objetivo.\n• Destruye el artefacto objetivo."
+  },
+  {
+    "name": "Teachings of the Archaics",
+    "printed_name": "Enseñanzas de los arcaicos",
+    "printed_text": "Si un oponente tiene más cartas en su mano que tú, robas dos cartas. Si un oponente tiene al menos cuatro cartas más en su mano que tú, en vez de eso, robas tres cartas."
+  },
+  {
+    "name": "True Ancestry",
+    "printed_name": "Antepasados verdaderos",
+    "printed_text": "Regresa hasta una carta de permanente objetivo de tu cementerio a tu mano.\nCrea una ficha de Pista. (Es un artefacto con \"{2}, sacrificar esta ficha: Roba una carta\".)"
+  },
+  {
+    "name": "Waterbending Lesson",
+    "printed_name": "Lección de control del agua",
+    "printed_text": "Roba tres cartas. Luego descarta una carta a menos que controles el agua {2}. (Al pagar un coste de controlar el agua, puedes girar tus artefactos y criaturas para que te ayuden. Cada uno cuenta como un pago de {1}.)"
+  },
+  {
+    "name": "Water Whip",
+    "printed_name": "Látigo de agua",
+    "printed_text": "Como coste adicional para lanzar este hechizo, controla el agua {5}. (Al pagar un coste de controlar el agua, puedes girar tus artefactos y criaturas para que te ayuden. Cada uno cuenta como un pago de {1}.)\nRegresa hasta dos criaturas objetivo a las manos de sus propietarios. Roba dos cartas."
+  },
+  {
+    "name": "Yip Yip!",
+    "printed_name": "¡Yip, yip!",
+    "printed_text": "La criatura objetivo que controlas obtiene +2/+2 hasta el final del turno. Si esa criatura es un Aliado, también gana la habilidad de volar hasta el final del turno."
+  },
+  {
+    "name": "Zuko's Exile",
+    "printed_name": "Exilio de Zuko",
+    "printed_text": "Exilia el artefacto, criatura o encantamiento objetivo. Su controlador crea una ficha de Pista. (Es un artefacto con \"{2}, sacrificar esta ficha: Roba una carta\".)"
+  }
+]
