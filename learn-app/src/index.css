@@ -113,3 +113,30 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+@font-face {
+  font-family: Beleren;
+  font-weight: normal;
+  font-style: normal;
+  src: local('Inter Medium'), url("/fonts/beleren-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: BelerenSmallCaps;
+  font-weight: normal;
+  font-style: normal;
+  src: local('Inter Medium'), url("/fonts/belerensmallcaps-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Mplantin;
+  font-weight: normal;
+  font-style: normal;
+  src: local('Inter Medium'), url("/fonts/mplantin.ttf") format("truetype");
+}
+
+@theme {
+  --font-beleren: "Beleren", sans-serif;
+  --font-belerencaps: "BelerenSmallCaps", sans-serif;
+  --font-mplantin: "Mplantin", sans-serif;
+}
