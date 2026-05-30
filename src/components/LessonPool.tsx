@@ -57,7 +57,7 @@ function LessonPool() {
               className="cursor-pointer -mt-6 first:mt-0"
               style={{ zIndex: i }}
             >
-              <div className="card-glow overflow-hidden w-60 h-16 rounded-xl rounded-b-none shadow-md transition-all duration-200">
+              <div className="card-glow overflow-hidden w-60 h-16 rounded-xl rounded-b-none shadow-md transition-all duration-200 cursor-pointer">
                 <img className="w-full h-auto object-cover object-top" src={`imgs/${lesson.img}`} alt={lesson.title} />
               </div>
             </div>
