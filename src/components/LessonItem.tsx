@@ -2,12 +2,19 @@ import { useState } from 'react'
 import { Popover, Button } from "flowbite-react";
 import { useLanguage } from "../context/LanguageContext";
 
+interface LessonProps {
+  card_img?: string;
+  card_title?: string;
+  card_text?: string;
+  onClick?: React.MouseEventHandler<HTMLImageElement>;
+}
+
 function Lesson({ 
     card_img="test.jpg",
     card_title="Card Title",
     card_text="Placeholder text for the card content.",
-    onClick=null
-}) {
+    onClick
+}: LessonProps) {
   const {lang} = useLanguage();
   const [isOpen, setIsOpen] = useState(false);
 

@@ -1,18 +1,20 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Modal, ModalBody, ModalHeader, Popover } from "flowbite-react";
-import { useSavedLessons } from "../context/SavedLessonsContext";
-import { useLanguage } from "../context/LanguageContext";
-import { t } from "../data/translations";
+import { useSavedLessons } from "../context/SavedLessonsContext.tsx";
+import { useLanguage } from "../context/LanguageContext.tsx";
+import { t } from "../data/translations.ts";
+import type { Lesson } from "../context/SavedLessonsContext.tsx";
 
 function LessonPool() {
   const { lang } = useLanguage();
   const { savedLessons, removeLesson } = useSavedLessons();
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState<Lesson | null>(null);
   const [infoOpen, setInfoOpen] = useState(false);
 
   if (savedLessons.length === 0) return null;
 
   const handleRemove = () => {
+    if(!selected) return;
     removeLesson(selected.id);
     setSelected(null);
   };
@@ -48,7 +50,7 @@ function LessonPool() {
 
         {/* Cards */}
         <div className="flex flex-col items-end gap-0 px-4">
-          {savedLessons.map((lesson, i) => (
+          {savedLessons.map((lesson: Lesson, i: number) => (
             <div
               key={lesson.id}
               onClick={() => setSelected(lesson)}

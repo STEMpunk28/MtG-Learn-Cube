@@ -1,18 +1,19 @@
-import React, { useState, useCallback } from "react";
+import { useState, useCallback } from "react";
 import { Button, Popover } from "flowbite-react";
-import Lesson from './Lesson.jsx';
+import LessonItem from './LessonItem.js';
 import cardData from '../data/cardData.json';
 import { useSavedLessons } from "../context/SavedLessonsContext";
 import { useLanguage } from "../context/LanguageContext";
-import { t } from "../data/translations";
+import { t } from "../data/translations.ts";
+import type { Lesson } from "../context/SavedLessonsContext.tsx";
 
-function pickRandom(savedLessons) {
+function pickRandom(savedLessons: Lesson[]): Lesson[] {
   const savedIds = new Set(savedLessons.map(l => l.id));
   const available = cardData
     .map((card, index) => ({ index, card }))
     .filter(({ index }) => !savedIds.has(index));
 
-  const picks = new Set();
+  const picks = new Set<number>();
   while (picks.size < 3 && picks.size < available.length) {
     picks.add(Math.floor(Math.random() * available.length));
   }
@@ -30,7 +31,7 @@ function pickRandom(savedLessons) {
 
 function DiscoverBox() {
   const { lang } = useLanguage();
-  const [randomLessons, setRandomLessons] = useState([]);
+  const [randomLessons, setRandomLessons] = useState<Lesson[]>([]);
   const [loading, setLoading] = useState(false);
   const [infoOpen, setInfoOpen] = useState(false);
   const { saveLesson, savedLessons } = useSavedLessons();
@@ -52,7 +53,7 @@ function DiscoverBox() {
     });
   }, [savedLessons]);
 
-  const handlePick = (lesson) => {
+  const handlePick = (lesson: Lesson) => {
     saveLesson(lesson);
     setRandomLessons([]);  // clear cards after picking
   };
@@ -91,7 +92,7 @@ function DiscoverBox() {
       <div className="grid grid-cols-3 gap-4 mb-4 px-4">
         {randomLessons.map((lesson) => (
           <div key={lesson.id}>
-            <Lesson
+            <LessonItem
               card_img={lesson.img}
               card_title={lesson.title}
               card_text={lesson.text}

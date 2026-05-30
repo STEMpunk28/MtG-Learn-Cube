@@ -1,9 +1,23 @@
-import React, { createContext, useContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
+import type { ReactNode } from "react";
 
-const SavedLessonsContext = createContext();
+export interface Lesson {
+  id: number;
+  img: string;
+  title: string;
+  text: string;
+}
 
-export function SavedLessonsProvider({ children }) {
-  const [savedLessons, setSavedLessons] = useState(() => {
+interface SavedLessonsContextType {
+  savedLessons: Lesson[];
+  saveLesson: (lesson: Lesson) => void;
+  removeLesson: (id: number) => void;
+}
+
+const SavedLessonsContext = createContext<SavedLessonsContextType>({} as SavedLessonsContextType);
+
+export function SavedLessonsProvider({ children }: { children: ReactNode }) {
+  const [savedLessons, setSavedLessons] = useState<Lesson[]>(() => {
     try {
       const stored = localStorage.getItem("savedLessons");
       return stored ? JSON.parse(stored) : [];
@@ -12,7 +26,7 @@ export function SavedLessonsProvider({ children }) {
     }
   });
 
-  const saveLesson = (lesson) => {
+  const saveLesson = (lesson: Lesson) => {
     setSavedLessons((prev) => {
       if (prev.find((l) => l.id === lesson.id)) return prev;
       const updated = [...prev, lesson];
@@ -21,7 +35,7 @@ export function SavedLessonsProvider({ children }) {
     });
   };
 
-  const removeLesson = (id) => {
+  const removeLesson = (id: number) => {
     setSavedLessons((prev) => {
       const updated = prev.filter((lesson) => lesson.id !== id);
       localStorage.setItem("savedLessons", JSON.stringify(updated));
