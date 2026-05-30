@@ -17,6 +17,10 @@ function App() {
         <DiscoverBox />
       </div>
       <LessonPool />
+      <footer className="bg-black w-full text-center text-xs text-white/40 py-2">
+        Magic: The Gathering is © Wizards of the Coast. This app is not affiliated nor produced nor endorsed by Wizards of the Coast.
+        All card images, mana symbols, expansions and art related to Magic the Gathering is a property of Wizards of the Coast/Hasbro.
+      </footer>
     </div>
   )
 }
