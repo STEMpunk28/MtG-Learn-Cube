@@ -63,7 +63,7 @@ function DiscoverBox() {
       {randomLessons.length === 0 && (
         <div className="flex items-center gap-2">
           <Button
-            className="font-semibold text-2xl p-7"
+            className="font-semibold text-2xl p-7 cursor-pointer"
             onClick={refresh}
             disabled={loading}>
               {loading ? t[lang].loading : t[lang].learn}
@@ -79,7 +79,7 @@ function DiscoverBox() {
               </div>
             }
           >
-            <span className="w-5 h-5 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 cursor-pointer transition-colors"
+            <span className="w-5 h-5 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-colors"
               onMouseEnter={() => setInfoOpen(true)}
               onMouseLeave={() => setInfoOpen(false)}
               onTouchStart={() => setInfoOpen(prev => !prev)}

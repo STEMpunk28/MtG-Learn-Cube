@@ -38,7 +38,7 @@ function LessonPool() {
               </div>
             }
           >
-            <span className="w-5 h-5 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 cursor-pointer transition-colors"
+            <span className="w-5 h-5 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-colors"
               onMouseEnter={() => setInfoOpen(true)}
               onMouseLeave={() => setInfoOpen(false)}
               onTouchStart={() => setInfoOpen(prev => !prev)}
@@ -57,7 +57,7 @@ function LessonPool() {
               className="cursor-pointer -mt-6 first:mt-0"
               style={{ zIndex: i }}
             >
-              <div className="card-glow overflow-hidden w-60 h-16 rounded-xl rounded-b-none shadow-md transition-all duration-200 cursor-pointer">
+              <div className="card-glow overflow-hidden w-60 h-16 rounded-xl rounded-b-none shadow-md transition-all duration-200">
                 <img className="w-full h-auto object-cover object-top" src={`imgs/${lesson.img}`} alt={lesson.title} />
               </div>
             </div>
@@ -72,7 +72,7 @@ function LessonPool() {
         <ModalBody className="flex flex-col items-center">
           <button
             onClick={handleRemove}
-            className="mb-4 px-4 py-2 bg-red-600 text-white text-sm font-semibold rounded hover:bg-red-700 transition-colors"
+            className="mb-4 px-4 py-2 bg-red-600 text-white text-sm font-semibold rounded hover:bg-red-700 transition-colors cursor-pointer"
           >
             {t[lang].removeLesson}
           </button>
