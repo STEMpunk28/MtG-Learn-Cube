@@ -22,7 +22,7 @@ function LessonPool() {
       <div className="bg-gray-900/60 border border-b-0 border-white rounded-xl rounded-b-none mx-4 overflow-hidden">
         {/* Header */}
         <div className="flex items-center justify-between px-4 py-2">
-          <span className="font-beleren text-base text-gray-200">
+          <span className="font-bold text-base text-gray-200">
             {t[lang].lessonsInExile}
           </span>
           <Popover
@@ -64,7 +64,7 @@ function LessonPool() {
       </div>
 
       <Modal show={!!selected} onClose={() => setSelected(null)} size="md" dismissible>
-        <ModalHeader className="font-beleren text-xl py-2 items-center">
+        <ModalHeader className="font-bold text-xl py-2 items-center">
           {selected?.title}
         </ModalHeader>
         <ModalBody className="flex flex-col items-center">
@@ -76,7 +76,7 @@ function LessonPool() {
           </button>
           <img src={`imgs/${selected?.img}`} alt={selected?.title} className="w-55 h-auto mb-4" />
           <div className="flex flex-col items-center gap-4">
-            <p className="font-mplantin text-base text-center text-black dark:text-gray-200">
+            <p className="text-base text-center text-black dark:text-gray-200">
               {selected?.text || t[lang].noDescription}
             </p>
           </div>

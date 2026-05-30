@@ -62,7 +62,7 @@ function DiscoverBox() {
       {randomLessons.length === 0 && (
         <div className="flex items-center gap-2">
           <Button
-            className="font-beleren text-2xl p-7"
+            className="font-semibold text-2xl p-7"
             onClick={refresh}
             disabled={loading}>
               {loading ? t[lang].loading : t[lang].learn}

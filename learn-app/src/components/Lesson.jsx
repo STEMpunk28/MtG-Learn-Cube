@@ -27,12 +27,12 @@ function Lesson({
           content={
             <div className="w-64">
               <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
-                <h3 id="default-popover" className="font-beleren text-lg text-gray-900 dark:text-white">
+                <h3 id="default-popover" className="font-bold text-lg text-gray-900 dark:text-white">
                   {card_title}
                 </h3>
               </div>
               <div className="px-3 py-2">
-                <p className="font-mplantin text-base text-black dark:text-gray-200">
+                <p className="text-base text-black dark:text-gray-200">
                   {card_text}
                 </p>
               </div>
