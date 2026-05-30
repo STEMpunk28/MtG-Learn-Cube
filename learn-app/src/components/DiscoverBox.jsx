@@ -1,8 +1,10 @@
 import React, { useState, useCallback } from "react";
-import { Button } from "flowbite-react";
+import { Button, Popover } from "flowbite-react";
 import Lesson from './Lesson.jsx';
 import cardData from '../data/cardData.json';
 import { useSavedLessons } from "../context/SavedLessonsContext";
+import { useLanguage } from "../context/LanguageContext";
+import { t } from "../data/translations";
 
 function pickRandom(savedLessons) {
   const savedIds = new Set(savedLessons.map(l => l.id));
@@ -19,7 +21,7 @@ function pickRandom(savedLessons) {
     const { index, card } = available[i];
     return {
       id: index,
-      img: `${card.name}.png`,
+      img: `${card.name}.webp`,
       title: card.printed_name,
       text: card.printed_text || "",
     };
@@ -27,8 +29,10 @@ function pickRandom(savedLessons) {
 }
 
 function DiscoverBox() {
+  const { lang } = useLanguage();
   const [randomLessons, setRandomLessons] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [infoOpen, setInfoOpen] = useState(false);
   const { saveLesson, savedLessons } = useSavedLessons();
 
   const refresh = useCallback(() => {
@@ -52,20 +56,41 @@ function DiscoverBox() {
     saveLesson(lesson);
     setRandomLessons([]);  // clear cards after picking
   };
-
+  
   return (
-    <>
-      <div>
-        <Button onClick={refresh} disabled={loading}>
-          {loading ? "Loading..." : "Learn"}
-        </Button>
-      </div>
-      <div className="grid grid-cols-3 gap-4">
-        {randomLessons.map((lesson) => (
-          <div
-            key={lesson.id}
-            className="mb-4 cursor-pointer"
+    <div className="flex flex-col items-center justify-center w-full h-full">
+      {randomLessons.length === 0 && (
+        <div className="flex items-center gap-2">
+          <Button
+            className="font-beleren text-2xl p-7"
+            onClick={refresh}
+            disabled={loading}>
+              {loading ? t[lang].loading : t[lang].learn}
+          </Button>
+          <Popover
+            open={infoOpen}
+            placement="top"
+            content={
+              <div className="w-52 px-3 py-2">
+                <p className="text-sm text-black dark:text-gray-300">
+                  {t[lang].learnInfo}
+                </p>
+              </div>
+            }
           >
+            <span className="w-5 h-5 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 cursor-pointer transition-colors"
+              onMouseEnter={() => setInfoOpen(true)}
+              onMouseLeave={() => setInfoOpen(false)}
+              onTouchStart={() => setInfoOpen(prev => !prev)}
+              >
+                ℹ️
+            </span>
+          </Popover>
+        </div>
+      )}
+      <div className="grid grid-cols-3 gap-4 mb-4 px-4">
+        {randomLessons.map((lesson) => (
+          <div key={lesson.id}>
             <Lesson
               card_img={lesson.img}
               card_title={lesson.title}
@@ -75,7 +100,7 @@ function DiscoverBox() {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 }
 

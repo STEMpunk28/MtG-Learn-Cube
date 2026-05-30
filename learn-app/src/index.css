@@ -70,6 +70,18 @@ body {
   margin: 0;
 }
 
+#bg {
+  position: fixed;
+  inset: 0;
+  background-image: url('/imgs/background.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(4px) brightness(0.65);
+  transform: scale(1.05); /* prevents blur from showing white edges */
+  z-index: -1;
+}
+
 h1,
 h2 {
   font-family: var(--heading);
@@ -112,6 +124,10 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+.card-glow:hover, .card-glow:active {
+  box-shadow: 0 0 8px 3px rgba(255, 255, 255, 0.6);
 }
 
 @font-face {
