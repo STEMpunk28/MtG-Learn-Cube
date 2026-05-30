@@ -64,26 +64,39 @@ function LessonPool() {
           ))}
         </div>
       </div>
-
-      <Modal show={!!selected} onClose={() => setSelected(null)} size="md" dismissible>
-        <ModalHeader className="font-bold text-xl py-2 items-center">
-          {selected?.title}
-        </ModalHeader>
-        <ModalBody className="flex flex-col items-center">
-          <button
-            onClick={handleRemove}
-            className="mb-4 px-4 py-2 bg-red-600 text-white text-sm font-semibold rounded hover:bg-red-700 transition-colors cursor-pointer"
-          >
-            {t[lang].removeLesson}
-          </button>
-          <img src={`imgs/${selected?.img}`} alt={selected?.title} className="w-55 h-auto mb-4" />
-          <div className="flex flex-col items-center gap-4">
-            <p className="text-base text-center text-black dark:text-gray-200">
-              {selected?.text || t[lang].noDescription}
-            </p>
-          </div>
-        </ModalBody>
-      </Modal>
+      { lang === "es" ? 
+        <Modal show={!!selected} onClose={() => setSelected(null)} size="md" dismissible>
+            <ModalHeader className="font-bold text-xl py-2 items-center">
+              {selected?.title}
+            </ModalHeader>
+            <ModalBody className="flex flex-col items-center">
+              <button
+                onClick={handleRemove}
+                className="mb-4 px-4 py-2 bg-red-600 text-white text-sm font-semibold rounded hover:bg-red-700 transition-colors cursor-pointer"
+              >
+                {t[lang].removeLesson}
+              </button>
+              <img src={`imgs/${selected?.img}`} alt={selected?.title} className="w-55 h-auto mb-4" />
+              <div className="flex flex-col items-center gap-4">
+                <p className="text-base text-center text-black dark:text-gray-200">
+                  {selected?.text || t[lang].noDescription}
+                </p>
+              </div>
+            </ModalBody>
+        </Modal>
+          :
+        <Modal show={!!selected} onClose={() => setSelected(null)} size="md" dismissible>
+            <ModalBody className="flex flex-col items-center">
+              <button
+                onClick={handleRemove}
+                className="mb-4 px-4 py-2 bg-red-600 text-white text-sm font-semibold rounded hover:bg-red-700 transition-colors cursor-pointer"
+              >
+                {t[lang].removeLesson}
+              </button>
+              <img src={`imgs/${selected?.img}`} alt={selected?.title} className="w-55 h-auto mb-4" />
+            </ModalBody>
+        </Modal>
+      }
     </>
   );
 }
