@@ -16,14 +16,26 @@ interface SavedLessonsContextType {
   savedLessons: Lesson[];
   saveLesson: (lesson: Lesson) => void;
   removeLesson: (id: number) => void;
+  blacklist: number[];
+  toggleBlacklist: (id: number) => void;
 }
 
 const SavedLessonsContext = createContext<SavedLessonsContextType>({} as SavedLessonsContextType);
 
 export function SavedLessonsProvider({ children }: { children: ReactNode }) {
+  
   const [savedLessons, setSavedLessons] = useState<Lesson[]>(() => {
     try {
       const stored = localStorage.getItem("savedLessons");
+      return stored ? JSON.parse(stored) : [];
+    } catch {
+      return [];
+    }
+  });
+  
+  const [blacklist, setBlacklist] = useState<number[]>(() => {
+    try {
+      const stored = localStorage.getItem("blacklist");
       return stored ? JSON.parse(stored) : [];
     } catch {
       return [];
@@ -47,8 +59,16 @@ export function SavedLessonsProvider({ children }: { children: ReactNode }) {
     });
   };
 
+  const toggleBlacklist = (id: number) => {
+    setBlacklist((prev) => {
+      const updated = prev.includes(id) ? prev.filter(i => i !== id) : [...prev, id];
+      localStorage.setItem("blacklist", JSON.stringify(updated));
+      return updated;
+    });
+  };
+
   return (
-    <SavedLessonsContext.Provider value={{ savedLessons, saveLesson, removeLesson }}>
+    <SavedLessonsContext.Provider value={{ savedLessons, saveLesson, removeLesson, blacklist, toggleBlacklist }}>
       {children}
     </SavedLessonsContext.Provider>
   );

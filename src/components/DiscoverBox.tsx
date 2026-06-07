@@ -7,11 +7,11 @@ import { useLanguage } from "../context/LanguageContext";
 import { t } from "../data/translations.ts";
 import type { Lesson } from "../context/SavedLessonsContext.tsx";
 
-function pickRandom(savedLessons: Lesson[]): Lesson[] {
+function pickRandom(savedLessons: Lesson[], blacklist: number[]): Lesson[] {
   const savedIds = new Set(savedLessons.map(l => l.id));
   const available = cardData
     .map((card, index) => ({ index, card }))
-    .filter(({ index }) => !savedIds.has(index));
+    .filter(({ index }) => !savedIds.has(index) && !blacklist.includes(index));
 
   const picks = new Set<number>();
   while (picks.size < 3 && picks.size < available.length) {
@@ -38,11 +38,11 @@ function DiscoverBox() {
   const [randomLessons, setRandomLessons] = useState<Lesson[]>([]);
   const [loading, setLoading] = useState(false);
   const [infoOpen, setInfoOpen] = useState(false);
-  const { saveLesson, savedLessons } = useSavedLessons();
+  const { saveLesson, savedLessons, blacklist } = useSavedLessons();
 
   const refresh = useCallback(() => {
     setLoading(true);
-    const lessons = pickRandom(savedLessons);
+    const lessons = pickRandom(savedLessons, blacklist);
     let loaded = 0;
     lessons.forEach(lesson => {
       const img = new Image();
@@ -55,7 +55,7 @@ function DiscoverBox() {
         }
       };
     });
-  }, [savedLessons]);
+  }, [savedLessons, blacklist]);
 
   const handlePick = (lesson: Lesson) => {
     saveLesson(lesson);
