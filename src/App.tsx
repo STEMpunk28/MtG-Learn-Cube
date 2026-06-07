@@ -2,12 +2,16 @@ import './App.css'
 import { useLanguage } from "./context/LanguageContext"
 import DiscoverBox from './components/DiscoverBox'
 import LessonPool from './components/LessonPool'
+import Settings from './components/Settings';
 
 function App() {
   const { lang, toggle } = useLanguage();
 
   return (
     <div className="flex flex-col items-center justify-between min-h-screen">
+      <div className="absolute top-4 left-4">
+        <Settings/>
+      </div>
       <div className="absolute top-4 right-4">
         <button onClick={toggle} className="text-md text-white md:opacity-70 hover:opacity-100 transition">
           {lang === "en" ? "🇬🇧 English" : "🇪🇸 Español​"}
