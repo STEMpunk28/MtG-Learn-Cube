@@ -1,297 +1,594 @@
 [
   {
+    "mana_cost": "{1}{G}",
+    "name": "Bumi's Feast Lecture",
+    "oracle_text": "Create a Food token. Then earthbend X, where X is twice the number of Foods you control. (A Food token is an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\" To earthbend X, target land you control becomes a 0/0 creature with haste that's still a land. Put X +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",
+    "printed_name": "Sermón Banquete de Bumi",
+    "printed_text": "Crea una ficha de Comida. Luego, controla la Tierra X, donde X es el doble del número de Comidas que controlas. (Una ficha de Comida es un artefacto con \"{2}, {T}, Sacrifica esta ficha: Ganas 3 vidas.\" Para controlar la Tierra X, la tierra objetivo que controlas se convierte en una criatura 0/0 con la habilidad de prisa que sigue siendo una tierra. Pon X contadores +1/+1 sobre ella. Cuando muera o sea exiliada, regrésala al campo de batalla girada.)\n\nTraducción no oficial",
+    "type_line": "Sorcery — Lesson"
+  },
+  {
+    "mana_cost": "{4}{G}",
+    "name": "Cracked Earth Technique",
+    "oracle_text": "Earthbend 3, then earthbend 3. You gain 3 life. (To earthbend 3, target land you control becomes a 0/0 creature with haste that's still a land. Put three +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",
+    "printed_name": "Técnica de la tierra agrietada",
+    "printed_text": "Controla la tierra 3, luego controla la tierra 3. Ganas 3 vidas. (Para controlar la tierra 3, la tierra objetivo que controlas se convierte en una criatura 0/0 con la habilidad de prisa que sigue siendo una tierra. Pon cuatro contadores +1/+1 sobre ella. Cuando muera o sea exiliada, regrésala al campo de batalla girada.)\n\nTraducción no oficial",
+    "type_line": "Sorcery — Lesson"
+  },
+  {
+    "mana_cost": "{1}{B}",
+    "name": "Desperate Plea",
+    "oracle_text": "As an additional cost to cast this spell, sacrifice a creature.\nChoose one or both —\n• Return target creature card from your graveyard to the battlefield if its power is less than or equal to the sacrificed creature's power.\n• Destroy target creature.",
+    "printed_name": "Súplica desesperada",
+    "printed_text": "Como coste adicional para lanzar este hechizo, sacrifica una criatura.\n\nElige una o ambos:\n• Regresa la carta de criatura objetivo de tu cementerio al campo de batalla si su fuerza es menor o igual a la fuerza de la criatura sacrificada.\n• Destruye la criatura objetivo.\n\nTraducción no oficial",
+    "type_line": "Sorcery — Lesson"
+  },
+  {
+    "mana_cost": "{4}{R}",
+    "name": "Overwhelming Victory",
+    "oracle_text": "Overwhelming Victory deals 5 damage to target creature. Each creature you control gains trample and gets +X/+0 until end of turn, where X is the amount of excess damage dealt this way.",
+    "printed_name": "Victoria abrumadora",
+    "printed_text": "La Victoria abrumadora hace 5 puntos de daño a la criatura objetivo. Cada criatura que controlas gana la habilidad de arrollar y obtiene +X/+0 hasta el final del turno, donde X es el daño sobrante hecho de esta manera.\n\nTraducción no oficial",
+    "type_line": "Instant — Lesson"
+  },
+  {
+    "mana_cost": "{3}{R}{R}",
+    "name": "Reckless Blaze",
+    "oracle_text": "Reckless Blaze deals 5 damage to each creature. Whenever a creature you control dealt damage this way dies this turn, add {R}.",
+    "printed_name": "Llamarada temeraria",
+    "printed_text": "La Llamarada temeraria hace 5 puntos de daño a cada criatura. Siempre que una criatura que controlas que haya recibido daño de esta manera muera este turno, añade {R}.\n\nTraducción no oficial",
+    "type_line": "Sorcery — Lesson"
+  },
+  {
+    "mana_cost": "{3}{B}",
+    "name": "Scarring Memories",
+    "oracle_text": "You may cast this spell as though it had flash if you control an attacking legendary creature.\nTarget opponent sacrifices a creature of their choice, discards a card, and loses 3 life.",
+    "printed_name": "Recuerdos que dejan cicatrices",
+    "printed_text": "Puedes lanzar este hechizo como si tuviera la habilidad de destello si controlas una criatura legendaria atacante.\nEl oponente objetivo sacrifica una criatura de su elección, descarta una carta y pierde 3 vidas.\n\nTraducción no oficial",
+    "type_line": "Sorcery — Lesson"
+  },
+  {
+    "mana_cost": "{1}{W}",
+    "name": "Sokka's Sword Training",
+    "oracle_text": "Target creature gets +2/+2 until end of turn.\nCreate a Clue token. (It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
+    "printed_name": "Entrenamiento de espada de Sokka",
+    "printed_text": "La criatura objetivo obtiene +2/+2 hasta el final del turno.\nCrea una ficha de Pista. (Es un artefacto con \"{2}, sacrifica esta ficha: roba una carta.\")\n\nTraducción no oficial",
+    "type_line": "Instant — Lesson"
+  },
+  {
+    "mana_cost": "{1}{W}",
+    "name": "That's Rough Buddy",
+    "oracle_text": "Put a +1/+1 counter on target creature. Put two +1/+1 counters on that creature instead if a creature left the battlefield under your control this turn.\nDraw a card.",
+    "printed_name": "Es duro amigo",
+    "printed_text": "Pon un contador +1/+1 sobre la criatura objetivo. En vez de eso, pon dos contadores +1/+1 sobre esa criatura si una criatura que controlabas dejó el campo de batalla este turno.\nRoba una carta.\n\nTraducción no oficial",
+    "type_line": "Instant — Lesson"
+  },
+  {
+    "mana_cost": "{1}{G}",
+    "name": "The Art of Tea",
+    "oracle_text": "Put a +1/+1 counter on up to one target creature you control. Create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")",
+    "printed_name": "El arte del té",
+    "printed_text": "Pon un contador +1/+1 sobre hasta una criatura objetivo que controlas. Crea una ficha de Comida. (Es un artefacto con \"{2}, {T}, Sacrifica esta ficha: Ganas 3 vidas.\")\n\nTraducción no oficial",
+    "type_line": "Instant — Lesson"
+  },
+  {
+    "mana_cost": "{U}{U}",
+    "name": "Waterbender's Restoration",
+    "oracle_text": "As an additional cost to cast this spell, waterbend {X}. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)\nExile X target creatures you control. Return those cards to the battlefield under their owner's control at the beginning of the next end step.",
+    "printed_name": "Restauración de la maestra del agua",
+    "printed_text": "Como coste adicional para lanzar este hechizo, controla el agua {X}. (Al pagar un coste de controlar el agua, puedes girar tus artefactos y criaturas para que te ayuden. Cada uno cuenta como un pago de {1}).\nExilia X criaturas objetivo que controlas. Regresa esas cartas al campo de batalla bajo el control de su propietario al comienzo del siguiente paso final.\n\nTraducción no oficial",
+    "type_line": "Instant — Lesson"
+  },
+  {
+    "mana_cost": "{4}{U}{U}",
+    "name": "Whirlwind Technique",
+    "oracle_text": "Target player draws two cards, then discards a card.\nAirbend up to two target creatures. (To airbend a creature, exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)",
+    "printed_name": "Técnica del torbellino",
+    "printed_text": "El jugador objetivo roba dos cartas y luego descarta una.\nControla el aire en torno a hasta dos criaturas objetivo. (Para controlar el aire en torno a una criatura, exíliala. Mientras esté exiliada, su propietario puede lanzarla por {2} en vez de su coste de maná).\n\nTraducción no oficial",
+    "type_line": "Instant — Lesson"
+  },
+  {
+    "mana_cost": "{2}",
+    "name": "Aang's Journey",
+    "oracle_text": "Kicker {2} (You may pay an additional {2} as you cast this spell.)\nSearch your library for a basic land card. If this spell was kicked, instead search your library for a basic land card and a Shrine card. Reveal those cards, put them into your hand, then shuffle.\nYou gain 2 life.",
+    "printed_name": "Viaje de Aang",
+    "printed_text": "Estímulo {2}. (Puedes pagar {2} adicionales al lanzar este hechizo.)\nBusca en tu biblioteca una carta de tierra básica. Si este hechizo fue estimulado, en vez de eso, busca en tu biblioteca una carta de tierra básica y una carta de Altar. Muestra esas cartas, ponlas en tu mano y luego baraja.\nGanas 2 vidas.",
+    "type_line": "Sorcery — Lesson"
+  },
+  {
+    "mana_cost": "{1}{U/R}",
     "name": "Abandon Attachments",
+    "oracle_text": "You may discard a card. If you do, draw two cards.",
     "printed_name": "Dejar ir las ataduras",
-    "printed_text": "Puedes descartar una carta. Si lo haces, roba dos cartas."
+    "printed_text": "Puedes descartar una carta. Si lo haces, roba dos cartas.",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{1}{W}",
     "name": "Academic Probation",
+    "oracle_text": "Choose one —\n• Choose a nonland card name. Opponents can't cast spells with the chosen name until your next turn.\n• Choose target nonland permanent. Until your next turn, it can't attack or block, and its activated abilities can't be activated.",
     "printed_name": "Suspensión académica",
-    "printed_text": "Elige uno:\n• Elige un nombre de carta que no sea tierra. Los oponentes no pueden lanzar hechizos con el nombre elegido hasta tu próximo turno.\n• Elige el permanente objetivo que no sea tierra. Hasta tu próximo turno, no puede atacar ni bloquear y sus habilidades activadas no pueden activarse."
+    "printed_text": "Elige uno:\n• Elige un nombre de carta que no sea tierra. Los oponentes no pueden lanzar hechizos con el nombre elegido hasta tu próximo turno.\n• Elige el permanente objetivo que no sea tierra. Hasta tu próximo turno, no puede atacar ni bloquear y sus habilidades activadas no pueden activarse.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{1}{U}",
     "name": "Accumulate Wisdom",
+    "oracle_text": "Look at the top three cards of your library. Put one of those cards into your hand and the rest on the bottom of your library in any order. Put each of those cards into your hand instead if there are three or more Lesson cards in your graveyard.",
     "printed_name": "Recibir conocimiento",
-    "printed_text": "Mira las tres primeras cartas de tu biblioteca. Pon una de esas cartas en tu mano y el resto en el fondo de tu biblioteca en cualquier orden. En vez de eso, pon cada una de esas cartas en tu mano si hay tres o más cartas de Lección en tu cementerio."
+    "printed_text": "Mira las tres primeras cartas de tu biblioteca. Pon una de esas cartas en tu mano y el resto en el fondo de tu biblioteca en cualquier orden. En vez de eso, pon cada una de esas cartas en tu mano si hay tres o más cartas de Lección en tu cementerio.",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{1}{W}",
     "name": "Airbender's Reversal",
+    "oracle_text": "Choose one —\n• Destroy target attacking creature.\n• Airbend target creature you control. (Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)",
     "printed_name": "Inversión del maestro del aire",
-    "printed_text": "Elige uno:\n* Destruye la criatura atacante objetivo.\n* Controla el aire en torno a la criatura objetivo que controlas. (Exíliala. Mientras esté exiliada, su propietario puede lanzarla pagando {2} en vez de su coste de maná.)"
+    "printed_text": "Elige uno:\n* Destruye la criatura atacante objetivo.\n* Controla el aire en torno a la criatura objetivo que controlas. (Exíliala. Mientras esté exiliada, su propietario puede lanzarla pagando {2} en vez de su coste de maná.)",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{2}{W}",
     "name": "Airbending Lesson",
+    "oracle_text": "Airbend target nonland permanent. (Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)\nDraw a card.",
     "printed_name": "Lección de control del aire",
-    "printed_text": "Controla el aire en torno al permanente objetivo que no sea tierra. (Exílialo. Mientras esté exiliado, su propietario puede lanzarlo pagando {2} en vez de su coste de maná.)\nRoba una carta."
+    "printed_text": "Controla el aire en torno al permanente objetivo que no sea tierra. (Exílialo. Mientras esté exiliado, su propietario puede lanzarlo pagando {2} en vez de su coste de maná.)\nRoba una carta.",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{1}{B}",
     "name": "Azula Always Lies",
+    "oracle_text": "Choose one or both —\n• Target creature gets -1/-1 until end of turn.\n• Put a +1/+1 counter on target creature.",
     "printed_name": "Azula siempre miente",
-    "printed_text": "Elige uno o ambos:\n* La criatura objetivo obtiene -1/-1 hasta el final del turno.\n* Pon un contador +1/+1 sobre la criatura objetivo."
+    "printed_text": "Elige uno o ambos:\n* La criatura objetivo obtiene -1/-1 hasta el final del turno.\n* Pon un contador +1/+1 sobre la criatura objetivo.",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{1}{G}{G}",
     "name": "Basic Conjuration",
+    "oracle_text": "Look at the top six cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in a random order. You gain 3 life.",
     "printed_name": "Conjuración básica",
-    "printed_text": "Mira las seis primeras cartas de tu biblioteca. Puedes mostrar una carta de criatura de entre ellas y ponerla en tu mano. Pon el resto en el fondo de tu biblioteca en un orden aleatorio. Ganas 3 vidas."
+    "printed_text": "Mira las seis primeras cartas de tu biblioteca. Puedes mostrar una carta de criatura de entre ellas y ponerla en tu mano. Pon el resto en el fondo de tu biblioteca en un orden aleatorio. Ganas 3 vidas.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{U}",
     "name": "Boomerang Basics",
+    "oracle_text": "Return target nonland permanent to its owner's hand. If you controlled that permanent, draw a card.",
     "printed_name": "Fundamentos del búmeran",
-    "printed_text": "Regresa el permanente objetivo que no sea tierra a la mano de su propietario. Si controlabas ese permanente, roba una carta."
+    "printed_text": "Regresa el permanente objetivo que no sea tierra a la mano de su propietario. Si controlabas ese permanente, roba una carta.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{1}{R}",
     "name": "Combustion Technique",
+    "oracle_text": "Combustion Technique deals damage equal to 2 plus the number of Lesson cards in your graveyard to target creature. If that creature would die this turn, exile it instead.",
     "printed_name": "Técnica de combustión",
-    "printed_text": "La Técnica de combustión hace una cantidad de daño igual a 2 más la cantidad de cartas de Lección en tu cementerio a la criatura objetivo. Si esa criatura fuera a morir este turno, en vez de eso, exíliala."
+    "printed_text": "La Técnica de combustión hace una cantidad de daño igual a 2 más la cantidad de cartas de Lección en tu cementerio a la criatura objetivo. Si esa criatura fuera a morir este turno, en vez de eso, exíliala.",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{X}{B}",
     "name": "Confront the Past",
+    "oracle_text": "Choose one —\n• Return target planeswalker card with mana value X or less from your graveyard to the battlefield.\n• Remove twice X loyalty counters from target planeswalker an opponent controls.",
     "printed_name": "Enfrentarse al pasado",
-    "printed_text": "Elige uno:\n• Regresa la carta de planeswalker objetivo con valor de maná de X o menos de tu cementerio al campo de batalla.\n• Remueve el doble de X contadores de lealtad del planeswalker objetivo que controla un oponente."
+    "printed_text": "Elige uno:\n• Regresa la carta de planeswalker objetivo con valor de maná de X o menos de tu cementerio al campo de batalla.\n• Remueve el doble de X contadores de lealtad del planeswalker objetivo que controla un oponente.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{2}{G}",
     "name": "Containment Breach",
+    "oracle_text": "Destroy target artifact or enchantment. If its mana value is 2 or less, create a 1/1 black and green Pest creature token with \"When this token dies, you gain 1 life.\"",
     "printed_name": "Brecha en la contención",
-    "printed_text": "Destruye el artefacto o encantamiento objetivo. Si su valor de maná es de 2 o menos, crea una ficha de criatura Plaga negra y verde 1/1 con \"Cuando esta criatura muera, ganas 1 vida\"."
+    "printed_text": "Destruye el artefacto o encantamiento objetivo. Si su valor de maná es de 2 o menos, crea una ficha de criatura Plaga negra y verde 1/1 con \"Cuando esta criatura muera, ganas 1 vida\".",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{2}{G}",
     "name": "Cycle of Renewal",
+    "oracle_text": "Sacrifice a land. Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.",
     "printed_name": "Ciclo de renovación",
-    "printed_text": "Sacrifica una tierra. Busca en tu biblioteca hasta dos cartas de tierra básica, ponlas en el campo de batalla giradas y luego baraja."
+    "printed_text": "Sacrifica una tierra. Busca en tu biblioteca hasta dos cartas de tierra básica, ponlas en el campo de batalla giradas y luego baraja.",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{1}{B}",
     "name": "Dai Li Indoctrination",
+    "oracle_text": "Choose one —\n• Target opponent reveals their hand. You choose a nonland permanent card from it. That player discards that card.\n• Earthbend 2. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",
     "printed_name": "Adoctrinamiento del Dai Li",
-    "printed_text": "Elige uno:\n* El oponente objetivo muestra su mano. Tú eliges de ahí una carta de permanente que no sea tierra. Ese jugador descarta esa carta.\n* Controla la tierra 2. (La tierra objetivo que controlas se convierte en una criatura 0/0 con la habilidad de prisa que sigue siendo una tierra. Pon dos contadores +1/+1 sobre ella. Cuando muera o sea exiliada, regrésala al campo de batalla girada.)"
+    "printed_text": "Elige uno:\n* El oponente objetivo muestra su mano. Tú eliges de ahí una carta de permanente que no sea tierra. Ese jugador descarta esa carta.\n* Controla la tierra 2. (La tierra objetivo que controlas se convierte en una criatura 0/0 con la habilidad de prisa que sigue siendo una tierra. Pon dos contadores +1/+1 sobre ella. Cuando muera o sea exiliada, regrésala al campo de batalla girada.)",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{3}{B}{B}",
     "name": "Decorum Dissertation",
+    "oracle_text": "Target player draws two cards and loses 2 life.\nParadigm (Then exile this spell. After you first resolve a spell with this name, you may cast a copy of it from exile without paying its mana cost at the beginning of each of your first main phases.)",
     "printed_name": "Tesis sobre el decoro",
-    "printed_text": "El jugador objetivo roba dos cartas y pierde 2 vidas.\nParadigma. (Luego exilia este hechizo. Después de resolver un hechizo con este nombre por primera vez, puedes lanzar una copia de él desde el exilio sin pagar su coste de maná al comienzo de cada una de tus primeras fases principales.)"
+    "printed_text": "El jugador objetivo roba dos cartas y pierde 2 vidas.\nParadigma. (Luego exilia este hechizo. Después de resolver un hechizo con este nombre por primera vez, puedes lanzar una copia de él desde el exilio sin pagar su coste de maná al comienzo de cada una de tus primeras fases principales.)",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{3}{G}",
     "name": "Earthbending Lesson",
+    "oracle_text": "Earthbend 4. (Target land you control becomes a 0/0 creature with haste that's still a land. Put four +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",
     "printed_name": "Lección de control de la tierra",
-    "printed_text": "Controla la tierra 4. (La tierra objetivo que controlas se convierte en una criatura 0/0 con la habilidad de prisa que sigue siendo una tierra. Pon cuatro contadores +1/+1 sobre ella. Cuando muera o sea exiliada, regrésala al campo de batalla girada.)"
+    "printed_text": "Controla la tierra 4. (La tierra objetivo que controlas se convierte en una criatura 0/0 con la habilidad de prisa que sigue siendo una tierra. Pon cuatro contadores +1/+1 sobre ella. Cuando muera o sea exiliada, regrésala al campo de batalla girada.)",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{4}{U}{U}",
     "name": "Echocasting Symposium",
+    "oracle_text": "Target player creates a token that's a copy of target creature you control.\nParadigm (Then exile this spell. After you first resolve a spell with this name, you may cast a copy of it from exile without paying its mana cost at the beginning of each of your first main phases.)",
     "printed_name": "Simposio de conjura de ecos",
-    "printed_text": "El jugador objetivo crea una ficha que es una copia de la criatura objetivo que controlas.\nParadigma. (Luego exilia este hechizo. Después de resolver un hechizo con este nombre por primera vez, puedes lanzar una copia de él desde el exilio sin pagar su coste de maná al comienzo de cada una de tus primeras fases principales.)"
+    "printed_text": "El jugador objetivo crea una ficha que es una copia de la criatura objetivo que controlas.\nParadigma. (Luego exilia este hechizo. Después de resolver un hechizo con este nombre por primera vez, puedes lanzar una copia de él desde el exilio sin pagar su coste de maná al comienzo de cada una de tus primeras fases principales.)",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{3}{U/R}{U/R}",
     "name": "Elemental Summoning",
+    "oracle_text": "Create a 4/4 blue and red Elemental creature token.",
     "printed_name": "Invocación elemental",
-    "printed_text": "Crea una ficha de criatura Elemental azul y roja 4/4."
+    "printed_text": "Crea una ficha de criatura Elemental azul y roja 4/4.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{4}{G}",
+    "name": "Elemental Teachings",
+    "oracle_text": "Search your library for up to four land cards with different names and reveal them. An opponent chooses two of those cards. Put the chosen cards into your graveyard and the rest onto the battlefield tapped, then shuffle.",
+    "printed_name": "Enseñanzas elementales",
+    "printed_text": "Busca en tu biblioteca hasta cuatro cartas de tierra con nombres distintos y muéstralas. Un oponente elige dos de esas cartas. Pon las cartas elegidas en tu cementerio y el resto en el campo de batalla giradas y luego baraja.",
+    "type_line": "Instant — Lesson"
+  },
+  {
+    "mana_cost": "{2}",
     "name": "Energybending",
+    "oracle_text": "Lands you control gain all basic land types until end of turn.\nDraw a card.",
     "printed_name": "Control de la energía",
-    "printed_text": "Las tierras que controlas ganan todos los tipos de tierra básica hasta el final del turno.\nRoba una carta."
+    "printed_text": "Las tierras que controlas ganan todos los tipos de tierra básica hasta el final del turno.\nRoba una carta.",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{W}",
     "name": "Enter the Avatar State",
+    "oracle_text": "Until end of turn, target creature you control becomes an Avatar in addition to its other types and gains flying, first strike, lifelink, and hexproof. (A creature with hexproof can't be the target of spells or abilities your opponents control.)",
     "printed_name": "Entrar en estado Avatar",
-    "printed_text": "Hasta el final del turno, la criatura objetivo que controlas se convierte en un Avatar además de sus otros tipos y gana las habilidades de volar, dañar primero, vínculo vital y antimaleficio. (Una criatura con la habilidad de antimaleficio no puede ser objetivo de hechizos o habilidades que controlan tus oponentes.)"
+    "printed_text": "Hasta el final del turno, la criatura objetivo que controlas se convierte en un Avatar además de sus otros tipos y gana las habilidades de volar, dañar primero, vínculo vital y antimaleficio. (Una criatura con la habilidad de antimaleficio no puede ser objetivo de hechizos o habilidades que controlan tus oponentes.)",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{2}",
     "name": "Environmental Sciences",
+    "oracle_text": "Search your library for a basic land card, reveal it, put it into your hand, then shuffle. You gain 2 life.",
     "printed_name": "Ciencias ambientales",
-    "printed_text": "Busca en tu biblioteca una carta de tierra básica, muéstrala, ponla en tu mano y luego baraja. Ganas 2 vidas."
+    "printed_text": "Busca en tu biblioteca una carta de tierra básica, muéstrala, ponla en tu mano y luego baraja. Ganas 2 vidas.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{3}",
     "name": "Expanded Anatomy",
+    "oracle_text": "Put two +1/+1 counters on target creature. It gains vigilance until end of turn.",
     "printed_name": "Anatomía expandida",
-    "printed_text": "Pon dos contadores +1/+1 sobre la criatura objetivo. Gana la habilidad de vigilancia hasta el final del turno."
+    "printed_text": "Pon dos contadores +1/+1 sobre la criatura objetivo. Gana la habilidad de vigilancia hasta el final del turno.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{2}{W}",
     "name": "Fancy Footwork",
+    "oracle_text": "Untap one or two target creatures. They each get +2/+2 until end of turn.",
     "printed_name": "Mover los pies con ritmo",
-    "printed_text": "Endereza una o dos criaturas objetivo. Cada una obtiene +2/+2 hasta el final del turno."
+    "printed_text": "Endereza una o dos criaturas objetivo. Cada una obtiene +2/+2 hasta el final del turno.",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{R}",
     "name": "Firebending Lesson",
+    "oracle_text": "Kicker {4} (You may pay an additional {4} as you cast this spell.)\nFirebending Lesson deals 2 damage to target creature. If this spell was kicked, it deals 5 damage to that creature instead.",
     "printed_name": "Lección de control del fuego",
-    "printed_text": "Estímulo {4}. (Puedes pagar {4} adicionales al lanzar este hechizo.)\nLa Lección de control del fuego hace 2 puntos de daño a la criatura objetivo. Si este hechizo fue estimulado, en vez de eso, hace 5 puntos de daño a esa criatura."
+    "printed_text": "Estímulo {4}. (Puedes pagar {4} adicionales al lanzar este hechizo.)\nLa Lección de control del fuego hace 2 puntos de daño a la criatura objetivo. Si este hechizo fue estimulado, en vez de eso, hace 5 puntos de daño a esa criatura.",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{X}{G/U}{G/U}",
     "name": "Fractal Summoning",
+    "oracle_text": "Create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it.",
     "printed_name": "Invocación de fractales",
-    "printed_text": "Crea una ficha de criatura Fractal verde y azul 0/0. Pon X contadores +1/+1 sobre ella."
+    "printed_text": "Crea una ficha de criatura Fractal verde y azul 0/0. Pon X contadores +1/+1 sobre ella.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{3}{G}{G}",
     "name": "Germination Practicum",
+    "oracle_text": "Put two +1/+1 counters on each creature you control.\nParadigm (Then exile this spell. After you first resolve a spell with this name, you may cast a copy of it from exile without paying its mana cost at the beginning of each of your first main phases.)",
     "printed_name": "Prácticas de germinación",
-    "printed_text": "Pon dos contadores +1/+1 sobre cada criatura que controlas.\nParadigma. (Luego exilia este hechizo. Después de resolver un hechizo con este nombre por primera vez, puedes lanzar una copia de él desde el exilio sin pagar su coste de maná al comienzo de cada una de tus primeras fases principales.)"
+    "printed_text": "Pon dos contadores +1/+1 sobre cada criatura que controlas.\nParadigma. (Luego exilia este hechizo. Después de resolver un hechizo con este nombre por primera vez, puedes lanzar una copia de él desde el exilio sin pagar su coste de maná al comienzo de cada una de tus primeras fases principales.)",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{2}{R}",
     "name": "How to Start a Riot",
+    "oracle_text": "Target creature gains menace until end of turn. (It can't be blocked except by two or more creatures.)\nCreatures target player controls get +2/+0 until end of turn.",
     "printed_name": "Cómo empezar un motín",
-    "printed_text": "La criatura objetivo gana la habilidad de amenaza hasta el final del turno. (No puede ser bloqueada excepto por dos o más criaturas.)\nLas criaturas que controla el jugador objetivo obtienen +2/+0 hasta el final del turno."
+    "printed_text": "La criatura objetivo gana la habilidad de amenaza hasta el final del turno. (No puede ser bloqueada excepto por dos o más criaturas.)\nLas criaturas que controla el jugador objetivo obtienen +2/+0 hasta el final del turno.",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{2}{R}{R}",
     "name": "Illuminate History",
+    "oracle_text": "Discard any number of cards, then draw that many cards. Then if there are seven or more cards in your graveyard, create a 3/2 red and white Spirit creature token.",
     "printed_name": "Iluminar la historia",
-    "printed_text": "Descarta cualquier cantidad de cartas y luego roba esa misma cantidad de cartas. Luego, si hay siete o más cartas en tu cementerio, crea una ficha de criatura Espíritu roja y blanca 3/2."
+    "printed_text": "Descarta cualquier cantidad de cartas y luego roba esa misma cantidad de cartas. Luego, si hay siete o más cartas en tu cementerio, crea una ficha de criatura Espíritu roja y blanca 3/2.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{5}{R}{R}",
     "name": "Improvisation Capstone",
+    "oracle_text": "Exile cards from the top of your library until you exile cards with total mana value 4 or greater. You may cast any number of spells from among them without paying their mana costs.\nParadigm (Then exile this spell. After you first resolve a spell with this name, you may cast a copy of it from exile without paying its mana cost at the beginning of each of your first main phases.)",
     "printed_name": "Cumbre de la improvisación",
-    "printed_text": "Exilia cartas de la parte superior de tu biblioteca hasta que exilies cartas con valor de maná total de 4 o más. Puedes lanzar cualquier cantidad de hechizos de entre ellas sin pagar sus costes de maná.\nParadigma. (Luego exilia este hechizo. Después de resolver un hechizo con este nombre por primera vez, puedes lanzar una copia de él desde el exilio sin pagar su coste de maná al comienzo de cada una de tus primeras fases principales.)"
+    "printed_text": "Exilia cartas de la parte superior de tu biblioteca hasta que exilies cartas con valor de maná total de 4 o más. Puedes lanzar cualquier cantidad de hechizos de entre ellas sin pagar sus costes de maná.\nParadigma. (Luego exilia este hechizo. Después de resolver un hechizo con este nombre por primera vez, puedes lanzar una copia de él desde el exilio sin pagar su coste de maná al comienzo de cada una de tus primeras fases principales.)",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{1}{W/B}{W/B}",
     "name": "Inkling Summoning",
+    "oracle_text": "Create a 2/1 white and black Inkling creature token with flying.",
     "printed_name": "Invocación de tintícolas",
-    "printed_text": "Crea una ficha de criatura Tintícola blanca y negra 2/1 con la habilidad de volar."
+    "printed_text": "Crea una ficha de criatura Tintícola blanca y negra 2/1 con la habilidad de volar.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{5}",
     "name": "Introduction to Annihilation",
+    "oracle_text": "Exile target nonland permanent. Its controller draws a card.",
     "printed_name": "Fundamentos de aniquilación",
-    "printed_text": "Exilia el permanente objetivo que no sea tierra. Su controlador roba una carta."
+    "printed_text": "Exilia el permanente objetivo que no sea tierra. Su controlador roba una carta.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{3}",
     "name": "Introduction to Prophecy",
+    "oracle_text": "Scry 2, then draw a card.",
     "printed_name": "Fundamentos de profecía",
-    "printed_text": "Adivina 2, luego roba una carta."
+    "printed_text": "Adivina 2, luego roba una carta.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{1}{R}",
     "name": "Iroh's Demonstration",
+    "oracle_text": "Choose one —\n• Iroh's Demonstration deals 1 damage to each creature your opponents control.\n• Iroh's Demonstration deals 4 damage to target creature.",
     "printed_name": "Demostración de Iroh",
-    "printed_text": "Elige uno:\n* La Demostración de Iroh hace 1 punto de daño a cada criatura que controlan tus oponentes.\n* La Demostración de Iroh hace 4 puntos de daño a la criatura objetivo."
+    "printed_text": "Elige uno:\n* La Demostración de Iroh hace 1 punto de daño a cada criatura que controlan tus oponentes.\n* La Demostración de Iroh hace 4 puntos de daño a la criatura objetivo.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{1}{U}",
     "name": "It'll Quench Ya!",
+    "oracle_text": "Counter target spell unless its controller pays {2}.",
     "printed_name": "¡Te quitará la sed!",
-    "printed_text": "Contrarresta el hechizo objetivo a menos que su controlador pague {2}."
+    "printed_text": "Contrarresta el hechizo objetivo a menos que su controlador pague {2}.",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{4}{U}",
+    "name": "Lost Days",
+    "oracle_text": "The owner of target creature or enchantment puts it into their library second from the top or on the bottom. You create a Clue token. (It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
+    "printed_name": "Días perdidos",
+    "printed_text": "El propietario del encantamiento o criatura objetivo lo pone en su biblioteca en segundo lugar desde la parte superior o en el fondo. Creas una ficha de Pista. (Es un artefacto con \"{2}, sacrificar esta ficha: Roba una carta\".)",
+    "type_line": "Instant — Lesson"
+  },
+  {
+    "mana_cost": "{7}",
     "name": "Mascot Exhibition",
+    "oracle_text": "Create a 2/1 white and black Inkling creature token with flying, a 3/2 red and white Spirit creature token, and a 4/4 blue and red Elemental creature token.",
     "printed_name": "Exhibición de mascotas",
-    "printed_text": "Crea una ficha de criatura Tintícola blanca y negra 2/1 con la habilidad de volar, una ficha de criatura Espíritu roja y blanca 3/2 y una ficha de criatura Elemental azul y roja 4/4."
+    "printed_text": "Crea una ficha de criatura Tintícola blanca y negra 2/1 con la habilidad de volar, una ficha de criatura Espíritu roja y blanca 3/2 y una ficha de criatura Elemental azul y roja 4/4.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{2}{G}",
     "name": "Match the Odds",
+    "oracle_text": "Create a 1/1 white Ally creature token. Put a +1/+1 counter on it for each creature your opponents control.",
     "printed_name": "Igualar las tornas",
-    "printed_text": "Crea una ficha de criatura Aliado blanca 1/1. Pon un contador +1/+1 sobre ella por cada criatura que controlan tus oponentes."
+    "printed_text": "Crea una ficha de criatura Aliado blanca 1/1. Pon un contador +1/+1 sobre ella por cada criatura que controlan tus oponentes.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{1}{U}",
     "name": "Mercurial Transformation",
+    "oracle_text": "Until end of turn, target nonland permanent loses all abilities and becomes your choice of a blue Frog creature with base power and toughness 1/1 or a blue Octopus creature with base power and toughness 4/4.",
     "printed_name": "Transformación errática",
-    "printed_text": "Hasta el final del turno, el permanente objetivo que no sea tierra pierde todas las habilidades y se convierte en una criatura Rana azul con fuerza y resistencia base de 1/1 o una criatura Pulpo azul con fuerza y resistencia base de 4/4, a tu elección."
+    "printed_text": "Hasta el final del turno, el permanente objetivo que no sea tierra pierde todas las habilidades y se convierte en una criatura Rana azul con fuerza y resistencia base de 1/1 o una criatura Pulpo azul con fuerza y resistencia base de 4/4, a tu elección.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{1}{B}{B}",
     "name": "Necrotic Fumes",
+    "oracle_text": "As an additional cost to cast this spell, exile a creature you control.\nExile target creature or planeswalker.",
     "printed_name": "Vapores necróticos",
-    "printed_text": "Como coste adicional para lanzar este hechizo, exilia una criatura que controlas.\nExilia la criatura o planeswalker objetivo."
+    "printed_text": "Como coste adicional para lanzar este hechizo, exilia una criatura que controlas.\nExilia la criatura o planeswalker objetivo.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{U}",
     "name": "Octopus Form",
+    "oracle_text": "Target creature you control gets +1/+1 and gains hexproof until end of turn. Untap it. (It can't be the target of spells or abilities your opponents control.)",
     "printed_name": "Forma Pulpo",
-    "printed_text": "La criatura objetivo que controlas obtiene +1/+1 y gana la habilidad de antimaleficio hasta el final del turno. Enderézala. (No puede ser objetivo de hechizos o habilidades que controlan tus oponentes.)"
+    "printed_text": "La criatura objetivo que controlas obtiene +1/+1 y gana la habilidad de antimaleficio hasta el final del turno. Enderézala. (No puede ser objetivo de hechizos o habilidades que controlan tus oponentes.)",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{1}{G}",
     "name": "Origin of Metalbending",
+    "oracle_text": "Choose one —\n• Destroy target artifact or enchantment.\n• Put a +1/+1 counter on target creature you control. It gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
     "printed_name": "Origen del control del metal",
-    "printed_text": "Elige uno:\n* Destruye el artefacto o encantamiento objetivo.\n* Pon un contador +1/+1 sobre la criatura objetivo que controlas. Gana la habilidad de indestructible hasta el final del turno. (El daño y los efectos que dicen \"destruir\" no la destruyen.)"
+    "printed_text": "Elige uno:\n* Destruye el artefacto o encantamiento objetivo.\n* Pon un contador +1/+1 sobre la criatura objetivo que controlas. Gana la habilidad de indestructible hasta el final del turno. (El daño y los efectos que dicen \"destruir\" no la destruyen.)",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{2}{B}",
     "name": "Ozai's Cruelty",
+    "oracle_text": "Ozai's Cruelty deals 2 damage to target player. That player discards two cards.",
     "printed_name": "Crueldad de Ozai",
-    "printed_text": "La Crueldad de Ozai hace 2 puntos de daño al jugador objetivo. Ese jugador descarta dos cartas."
+    "printed_text": "La Crueldad de Ozai hace 2 puntos de daño al jugador objetivo. Ese jugador descarta dos cartas.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{1}{B/G}{B/G}",
     "name": "Pest Summoning",
+    "oracle_text": "Create two 1/1 black and green Pest creature tokens with \"When this token dies, you gain 1 life.\"",
     "printed_name": "Invocación de plagas",
-    "printed_text": "Crea dos fichas de criatura Plaga negras y verdes 1/1 con \"Cuando esta criatura muera, ganas 1 vida\"."
+    "printed_text": "Crea dos fichas de criatura Plaga negras y verdes 1/1 con \"Cuando esta criatura muera, ganas 1 vida\".",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{1}{R}",
     "name": "Price of Freedom",
+    "oracle_text": "Destroy target artifact or land an opponent controls. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.\nDraw a card.",
     "printed_name": "Precio de la libertad",
-    "printed_text": "Destruye el artefacto o tierra objetivo que controla un oponente. Su controlador puede buscar en su biblioteca una carta de tierra básica, ponerla en el campo de batalla girada y luego barajar.\nRoba una carta."
+    "printed_text": "Destruye el artefacto o tierra objetivo que controla un oponente. Su controlador puede buscar en su biblioteca una carta de tierra básica, ponerla en el campo de batalla girada y luego barajar.\nRoba una carta.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{R}",
     "name": "Redirect Lightning",
+    "oracle_text": "As an additional cost to cast this spell, pay 5 life or pay {2}.\nChange the target of target spell or ability with a single target.",
     "printed_name": "Redirigir el rayo",
-    "printed_text": "Como coste adicional para lanzar este hechizo, paga 5 vidas o paga {2}.\nCambia el objetivo del hechizo o la habilidad objetivo que tenga un solo objetivo."
+    "printed_text": "Como coste adicional para lanzar este hechizo, paga 5 vidas o paga {2}.\nCambia el objetivo del hechizo o la habilidad objetivo que tenga un solo objetivo.",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{1}{W}{W}",
     "name": "Reduce to Memory",
+    "oracle_text": "Exile target nonland permanent. Its controller creates a 3/2 red and white Spirit creature token.",
     "printed_name": "Reducir a un recuerdo",
-    "printed_text": "Exilia el permanente objetivo que no sea tierra. Su controlador crea una ficha de criatura Espíritu roja y blanca 3/2."
+    "printed_text": "Exilia el permanente objetivo que no sea tierra. Su controlador crea una ficha de criatura Espíritu roja y blanca 3/2.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{5}{W}{W}",
     "name": "Restoration Seminar",
+    "oracle_text": "Return target nonland permanent card from your graveyard to the battlefield.\nParadigm (Then exile this spell. After you first resolve a spell with this name, you may cast a copy of it from exile without paying its mana cost at the beginning of each of your first main phases.)",
     "printed_name": "Seminario de restauración",
-    "printed_text": "Regresa la carta de permanente objetivo que no sea tierra de tu cementerio al campo de batalla.\nParadigma. (Luego exilia este hechizo. Después de resolver un hechizo con este nombre por primera vez, puedes lanzar una copia de él desde el exilio sin pagar su coste de maná al comienzo de cada una de tus primeras fases principales.)"
+    "printed_text": "Regresa la carta de permanente objetivo que no sea tierra de tu cementerio al campo de batalla.\nParadigma. (Luego exilia este hechizo. Después de resolver un hechizo con este nombre por primera vez, puedes lanzar una copia de él desde el exilio sin pagar su coste de maná al comienzo de cada una de tus primeras fases principales.)",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{2}{G}",
     "name": "Rockalanche",
+    "oracle_text": "Earthbend X, where X is the number of Forests you control. (Target land you control becomes a 0/0 creature with haste that's still a land. Put X +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)\nFlashback {5}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
     "printed_name": "Rocavalancha",
-    "printed_text": "Controla la tierra X, donde X es la cantidad de Bosques que controlas. (La tierra objetivo que controlas se convierte en una criatura 0/0 con la habilidad de prisa que sigue siendo una tierra. Pon X contadores +1/+1 sobre ella. Cuando muera o sea exiliada, regrésala al campo de batalla girada.)\nRetrospectiva {5G}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)"
+    "printed_text": "Controla la tierra X, donde X es la cantidad de Bosques que controlas. (La tierra objetivo que controlas se convierte en una criatura 0/0 con la habilidad de prisa que sigue siendo una tierra. Pon X contadores +1/+1 sobre ella. Cuando muera o sea exiliada, regrésala al campo de batalla girada.)\nRetrospectiva {5G}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{1}{B}{B}",
     "name": "Ruinous Waterbending",
+    "oracle_text": "As an additional cost to cast this spell, you may waterbend {4}. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)\nAll creatures get -2/-2 until end of turn. If this spell's additional cost was paid, whenever a creature dies this turn, you gain 1 life.",
     "printed_name": "Control del agua funesto",
-    "printed_text": "Como coste adicional para lanzar este hechizo, puedes controlar el agua {4}. (Al pagar un coste de controlar el agua, puedes girar tus artefactos y criaturas para que te ayuden. Cada uno cuenta como un pago de {1}.)\nTodas las criaturas obtienen -2/-2 hasta el final del turno. Si se pagó el coste adicional de este hechizo, siempre que una criatura muera este turno, ganas 1 vida."
+    "printed_text": "Como coste adicional para lanzar este hechizo, puedes controlar el agua {4}. (Al pagar un coste de controlar el agua, puedes girar tus artefactos y criaturas para que te ayuden. Cada uno cuenta como un pago de {1}.)\nTodas las criaturas obtienen -2/-2 hasta el final del turno. Si se pagó el coste adicional de este hechizo, siempre que una criatura muera este turno, ganas 1 vida.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{U}{U}{U}{U}",
+    "name": "Secret of Bloodbending",
+    "oracle_text": "As an additional cost to cast this spell, you may waterbend {10}.\nYou control target opponent during their next combat phase. If this spell's additional cost was paid, you control that player during their next turn instead. (You see all cards that player could see and make all decisions for them.)\nExile Secret of Bloodbending.",
+    "printed_name": "Secreto del control de la sangre",
+    "printed_text": "Como coste adicional para lanzar este hechizo, puedes controlar el agua {10}.\nControlas al oponente objetivo durante su próxima fase de combate. Si se pagó el coste adicional de este hechizo, en vez de eso, controlas a ese jugador durante su próximo turno. (Ves todas las cartas que ese jugador podría ver y tomas todas las decisiones en su lugar.)\nExilia el Secreto del control de la sangre.",
+    "type_line": "Sorcery — Lesson"
+  },
+  {
+    "mana_cost": "{G}",
     "name": "Seismic Sense",
+    "oracle_text": "Look at the top X cards of your library, where X is the number of lands you control. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
     "printed_name": "Sentido sísmico",
-    "printed_text": "Mira las X primeras cartas de tu biblioteca, donde X es la cantidad de tierras que controlas. Puedes mostrar una carta de criatura o de tierra de entre ellas y ponerla en tu mano. Pon el resto en el fondo de tu biblioteca en un orden aleatorio."
+    "printed_text": "Mira las X primeras cartas de tu biblioteca, donde X es la cantidad de tierras que controlas. Puedes mostrar una carta de criatura o de tierra de entre ellas y ponerla en tu mano. Pon el resto en el fondo de tu biblioteca en un orden aleatorio.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{1}{G}",
     "name": "Shared Roots",
+    "oracle_text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
     "printed_name": "Raíces compartidas",
-    "printed_text": "Busca en tu biblioteca una carta de tierra básica, ponla en el campo de batalla girada y luego baraja."
+    "printed_text": "Busca en tu biblioteca una carta de tierra básica, ponla en el campo de batalla girada y luego baraja.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{3}{U}{U}",
     "name": "Sokka's Haiku",
+    "oracle_text": "Counter target spell.\nDraw a card, then mill three cards.\nUntap target land.",
     "printed_name": "Haiku de Sokka",
-    "printed_text": "Contrarresta el hechizo objetivo.\nRoba una carta y luego muele tres cartas.\nEndereza la tierra objetivo."
+    "printed_text": "Contrarresta el hechizo objetivo.\nRoba una carta y luego muele tres cartas.\nEndereza la tierra objetivo.",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{2}{R}",
     "name": "Solstice Revelations",
+    "oracle_text": "Exile cards from the top of your library until you exile a nonland card. You may cast that card without paying its mana cost if the spell's mana value is less than the number of Mountains you control. If you don't cast that card this way, put it into your hand.\nFlashback {6}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
     "printed_name": "Revelaciones del solsticio",
-    "printed_text": "Exilia cartas de la parte superior de tu biblioteca hasta que exilies una carta que no sea tierra. Puedes lanzar esa carta sin pagar su coste de maná si el valor de maná del hechizo es menor que la cantidad de Montañas que controlas. Si no lanzas esa carta de esta manera, ponla en tu mano.\nRetrospectiva {6R}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)"
+    "printed_text": "Exilia cartas de la parte superior de tu biblioteca hasta que exilies una carta que no sea tierra. Puedes lanzar esa carta sin pagar su coste de maná si el valor de maná del hechizo es menor que la cantidad de Montañas que controlas. Si no lanzas esa carta de esta manera, ponla en tu mano.\nRetrospectiva {6R}. (Puedes lanzar esta carta desde tu cementerio pagando su coste de retrospectiva. Luego exíliala.)",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{1}{R/W}{R/W}",
     "name": "Spirit Summoning",
+    "oracle_text": "Create a 3/2 red and white Spirit creature token.",
     "printed_name": "Invocación de espíritus",
-    "printed_text": "Crea una ficha de criatura Espíritu roja y blanca 3/2."
+    "printed_text": "Crea una ficha de criatura Espíritu roja y blanca 3/2.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{2}{R}",
     "name": "Start from Scratch",
+    "oracle_text": "Choose one —\n• Start from Scratch deals 1 damage to any target.\n• Destroy target artifact.",
     "printed_name": "Empezar de cero",
-    "printed_text": "Elige uno:\n• Empezar de cero hace 1 punto de daño a cualquier objetivo.\n• Destruye el artefacto objetivo."
+    "printed_text": "Elige uno:\n• Empezar de cero hace 1 punto de daño a cualquier objetivo.\n• Destruye el artefacto objetivo.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{2}{U}",
     "name": "Teachings of the Archaics",
+    "oracle_text": "If an opponent has more cards in hand than you, draw two cards. Draw three cards instead if an opponent has at least four more cards in hand than you.",
     "printed_name": "Enseñanzas de los arcaicos",
-    "printed_text": "Si un oponente tiene más cartas en su mano que tú, robas dos cartas. Si un oponente tiene al menos cuatro cartas más en su mano que tú, en vez de eso, robas tres cartas."
+    "printed_text": "Si un oponente tiene más cartas en su mano que tú, robas dos cartas. Si un oponente tiene al menos cuatro cartas más en su mano que tú, en vez de eso, robas tres cartas.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{1}{G}",
     "name": "True Ancestry",
+    "oracle_text": "Return up to one target permanent card from your graveyard to your hand.\nCreate a Clue token. (It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
     "printed_name": "Antepasados verdaderos",
-    "printed_text": "Regresa hasta una carta de permanente objetivo de tu cementerio a tu mano.\nCrea una ficha de Pista. (Es un artefacto con \"{2}, sacrificar esta ficha: Roba una carta\".)"
+    "printed_text": "Regresa hasta una carta de permanente objetivo de tu cementerio a tu mano.\nCrea una ficha de Pista. (Es un artefacto con \"{2}, sacrificar esta ficha: Roba una carta\".)",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{3}{U}",
     "name": "Waterbending Lesson",
+    "oracle_text": "Draw three cards. Then discard a card unless you waterbend {2}. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)",
     "printed_name": "Lección de control del agua",
-    "printed_text": "Roba tres cartas. Luego descarta una carta a menos que controles el agua {2}. (Al pagar un coste de controlar el agua, puedes girar tus artefactos y criaturas para que te ayuden. Cada uno cuenta como un pago de {1}.)"
+    "printed_text": "Roba tres cartas. Luego descarta una carta a menos que controles el agua {2}. (Al pagar un coste de controlar el agua, puedes girar tus artefactos y criaturas para que te ayuden. Cada uno cuenta como un pago de {1}.)",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{U}{U}",
     "name": "Water Whip",
+    "oracle_text": "As an additional cost to cast this spell, waterbend {5}. (While paying a waterbend cost, you can tap your artifacts and creatures to help. Each one pays for {1}.)\nReturn up to two target creatures to their owners' hands. Draw two cards.",
     "printed_name": "Látigo de agua",
-    "printed_text": "Como coste adicional para lanzar este hechizo, controla el agua {5}. (Al pagar un coste de controlar el agua, puedes girar tus artefactos y criaturas para que te ayuden. Cada uno cuenta como un pago de {1}.)\nRegresa hasta dos criaturas objetivo a las manos de sus propietarios. Roba dos cartas."
+    "printed_text": "Como coste adicional para lanzar este hechizo, controla el agua {5}. (Al pagar un coste de controlar el agua, puedes girar tus artefactos y criaturas para que te ayuden. Cada uno cuenta como un pago de {1}.)\nRegresa hasta dos criaturas objetivo a las manos de sus propietarios. Roba dos cartas.",
+    "type_line": "Sorcery — Lesson"
   },
   {
+    "mana_cost": "{W}",
     "name": "Yip Yip!",
+    "oracle_text": "Target creature you control gets +2/+2 until end of turn. If that creature is an Ally, it also gains flying until end of turn.",
     "printed_name": "¡Yip, yip!",
-    "printed_text": "La criatura objetivo que controlas obtiene +2/+2 hasta el final del turno. Si esa criatura es un Aliado, también gana la habilidad de volar hasta el final del turno."
+    "printed_text": "La criatura objetivo que controlas obtiene +2/+2 hasta el final del turno. Si esa criatura es un Aliado, también gana la habilidad de volar hasta el final del turno.",
+    "type_line": "Instant — Lesson"
   },
   {
+    "mana_cost": "{5}",
     "name": "Zuko's Exile",
+    "oracle_text": "Exile target artifact, creature, or enchantment. Its controller creates a Clue token. (It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
     "printed_name": "Exilio de Zuko",
-    "printed_text": "Exilia el artefacto, criatura o encantamiento objetivo. Su controlador crea una ficha de Pista. (Es un artefacto con \"{2}, sacrificar esta ficha: Roba una carta\".)"
+    "printed_text": "Exilia el artefacto, criatura o encantamiento objetivo. Su controlador crea una ficha de Pista. (Es un artefacto con \"{2}, sacrificar esta ficha: Roba una carta\".)",
+    "type_line": "Instant — Lesson"
   }
 ]
