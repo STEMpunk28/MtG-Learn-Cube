@@ -6,6 +6,10 @@ export interface Lesson {
   img: string;
   title: string;
   text: string;
+  mana_cost: string;
+  type_line: string;
+  es_title: string;
+  es_text: string;
 }
 
 interface SavedLessonsContextType {

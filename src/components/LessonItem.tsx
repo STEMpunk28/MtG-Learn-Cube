@@ -6,13 +6,16 @@ interface LessonProps {
   card_img?: string;
   card_title?: string;
   card_text?: string;
+  card_es_title?: string;
+  card_es_text?: string;
   onClick?: React.MouseEventHandler<HTMLImageElement>;
 }
 
 function Lesson({ 
     card_img="test.jpg",
     card_title="Card Title",
-    card_text="Placeholder text for the card content.",
+    card_es_title="Título de la Carta",
+    card_es_text="Texto de ejemplo para el contenido de la carta.",
     onClick
 }: LessonProps) {
   const {lang} = useLanguage();
@@ -35,17 +38,17 @@ function Lesson({
             <div className="w-64">
               <div className="border-b border-gray-200 bg-gray-100 px-3 py-2 dark:border-gray-600 dark:bg-gray-700">
                 <h3 id="default-popover" className="font-bold text-lg text-gray-900 dark:text-white">
-                  {card_title}
+                  {card_es_title}
                 </h3>
               </div>
               <div className="px-3 py-2">
                 <p className="text-base text-black dark:text-gray-200">
-                  {card_text}
+                  {card_es_text}
                 </p>
               </div>
             </div>
           }
-        > 
+        >
           <Button
             color="yellow"
             onMouseEnter={() => setIsOpen(true)}

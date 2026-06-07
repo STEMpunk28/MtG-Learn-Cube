@@ -1,7 +1,7 @@
 import { useState, useCallback } from "react";
 import { Button, Popover } from "flowbite-react";
 import LessonItem from './LessonItem.js';
-import cardData from '../data/cardData.json';
+import cardData from '../data/CardData.json';
 import { useSavedLessons } from "../context/SavedLessonsContext";
 import { useLanguage } from "../context/LanguageContext";
 import { t } from "../data/translations.ts";
@@ -22,9 +22,13 @@ function pickRandom(savedLessons: Lesson[]): Lesson[] {
     const { index, card } = available[i];
     return {
       id: index,
-      img: `${card.name}.webp`,
-      title: card.printed_name,
-      text: card.printed_text || "",
+      img: `${card.name}.webp` || "",
+      title: card.name || "",
+      text: card.oracle_text || "",
+      mana_cost: card.mana_cost || "",
+      type_line: card.type_line || "",
+      es_title: card.printed_name || "",
+      es_text: card.printed_text || "",
     };
   });
 }
@@ -95,7 +99,8 @@ function DiscoverBox() {
             <LessonItem
               card_img={lesson.img}
               card_title={lesson.title}
-              card_text={lesson.text}
+              card_es_title={lesson.es_title}
+              card_es_text={lesson.es_text}
               onClick={() => handlePick(lesson)}
             />
           </div>
