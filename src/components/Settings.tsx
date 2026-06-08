@@ -86,7 +86,7 @@ function Settings() {
             </div>
             <div className="border border-gray-500 rounded-xl p-4 bg-gray-900/40">
               <div className="flex items-center justify-between mb-9">
-                <div className="flex gap-2">
+                <div className="flex gap-2 p-3">
                   <h2>{t[lang].blacklistTitle}</h2>
                   <Popover
                     open={infoOpen2}
@@ -111,12 +111,13 @@ function Settings() {
                 <Button
                   onClick={handleReset}
                   color="red"
-                  className="cursor-pointer"
+                  size="sm"
+                  className="cursor-pointer max-w-36 text-xs"
                 >
                   {t[lang].resetDefault}
                 </Button>
               </div>
-              <div className="grid grid-cols-3 gap-1">
+              <div className="grid grid-cols-2 gap-1">
                 {cardData.map((card, index) => {
                   const isBlacklisted = blacklist.includes(index);
                   return (

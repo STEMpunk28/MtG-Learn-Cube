@@ -9,10 +9,10 @@ export const t = {
     noDescription: "No description available.",
     poolFull: "Maximum Reached",
     settings: "Settings",
-    maxPoolTitle: "Maximum Number of Lessons in exile",
+    maxPoolTitle: "Maximum Number of lessons in exile",
     maxPoolInfo: "Choose the maximum amount of Lessons that can be in exile at the same time. If the limit is reached, you won't be able to choose more cards until you remove some.",
-    resetDefault: "Reset to Cube Default",
-    blacklistTitle: "Card Blacklist",
+    resetDefault: "Cube Default",
+    blacklistTitle: "Blacklist",
     blacklistInfo: "Blacklisted cards can't be chosen.",
   },
   es: {
@@ -25,10 +25,10 @@ export const t = {
     noDescription: "Sin descripción disponible.",
     poolFull: "Máximo alcanzado",
     settings: "Configuración",
-    maxPoolTitle: "Número máximo de Lessons en exilio",
+    maxPoolTitle: "Número máximo de lecciones en exilio",
     maxPoolInfo: "Elije el número máximo de Lecciones que pueden estar en exilio al mismo tiempo. Si se alcanza el límite, no podrás elegir más hasta que remuevas algunas.",
-    resetDefault: "Regresar a la configuración del Cubo",
-    blacklistTitle: "Cartas baneadas",
-    blacklistInfo: "Las cartas baneadas no pueden ser seleccionadas.",
+    resetDefault: "Configuración predeterminada",
+    blacklistTitle: "Lista negra",
+    blacklistInfo: "Las cartas en la lista negra no pueden ser seleccionadas.",
   }
 };
