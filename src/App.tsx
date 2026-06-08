@@ -13,7 +13,7 @@ function App() {
         <Settings/>
       </div>
       <div className="absolute top-4 right-4">
-        <button onClick={toggle} className="text-md text-white md:opacity-70 hover:opacity-100 transition">
+        <button onClick={toggle} className="text-md text-white cursor-pointer md:opacity-70 hover:opacity-100 transition">
           {lang === "en" ? "🇬🇧 English" : "🇪🇸 Español​"}
         </button>
       </div>

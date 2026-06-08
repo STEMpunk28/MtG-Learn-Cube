@@ -38,7 +38,7 @@ function LessonPool() {
               </div>
             }
           >
-            <span className="w-5 h-5 text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 transition-colors"
+            <span
               onMouseEnter={() => setInfoOpen(true)}
               onMouseLeave={() => setInfoOpen(false)}
               onTouchStart={() => setInfoOpen(prev => !prev)}
