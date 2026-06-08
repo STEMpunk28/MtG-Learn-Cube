@@ -14,6 +14,7 @@ export const t = {
     resetDefault: "Cube Default",
     blacklistTitle: "Blacklist",
     blacklistInfo: "Blacklisted cards can't be chosen.",
+    blacklistLimit: "Minimum of 3 lessons required.",
   },
   es: {
     learn: "Aprende",
@@ -30,5 +31,6 @@ export const t = {
     resetDefault: "Configuración predeterminada",
     blacklistTitle: "Lista negra",
     blacklistInfo: "Las cartas en la lista negra no pueden ser seleccionadas.",
+    blacklistLimit: "Se requieren mínimo 3 lecciones.",
   }
 };

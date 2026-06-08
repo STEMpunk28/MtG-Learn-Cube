@@ -13,6 +13,7 @@ function Settings() {
   const [infoOpen2, setInfoOpen2] = useState(false);
   
   const maxAllowed = availableCount - 2;
+  const atLimit = availableCount <= 3;
   const DEFAULT_BLACKLIST = [11, 29, 46, 61];
 
   const handleReset = () => {
@@ -84,6 +85,9 @@ function Settings() {
                 />
               </div>
             </div>
+            {atLimit && (
+                <p className="text-red-500 text-sm mb-2">{t[lang].blacklistLimit}</p>
+              )}
             <div className="border border-gray-500 rounded-xl p-4 bg-gray-900/40">
               <div className="flex items-center justify-between mb-9">
                 <div className="flex gap-2 p-3">
@@ -123,8 +127,8 @@ function Settings() {
                   return (
                     <div
                       key={index}
-                      onClick={() => toggleBlacklist(index)}
-                      className="flex -mt-6 overflow-hidden cursor-pointer transition-all"
+                      onClick={!atLimit || isBlacklisted ? () => toggleBlacklist(index) : undefined}
+                      className={`flex -mt-6 overflow-hidden cursor-pointer transition-all ${!isBlacklisted && atLimit ? "cursor-not-allowed" : ""}`}
                     >
                       <div className={`relative overflow-hidden w-60 h-16 rounded-xl rounded-b-none transition-all
                         ${isBlacklisted && "border border-red-500"}`}
