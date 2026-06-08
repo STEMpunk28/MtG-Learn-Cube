@@ -7,6 +7,12 @@ export const t = {
     exileInfo: "You have copies of this cards in exile and you may cast them by paying mana of any color.\n Click on them to review their effects and remove to return them to the available pool.",
     removeLesson: "Remove",
     noDescription: "No description available.",
+    settings: "Settings",
+    maxPoolTitle: "Maximum Number of cards in exile",
+    maxPoolInfo: "Choose the maximum amount of Lessons that can be in exile at the same time. If the limit is reached, you won't be able to choose more cards until you remove some.",
+    resetDefault: "Reset to Cube Default",
+    blacklistTitle: "Card Blacklist",
+    blacklistInfo: "Blacklisted cards can't be chosen.",
   },
   es: {
     learn: "Aprende",
@@ -16,5 +22,11 @@ export const t = {
     exileInfo: "Tienes copias de estas cartas en exilio, puedes lanzarlas pagando maná de cualquier color. \n Presiona en ellas para revisar sus efectos y removerlas para regresarlas al grupo de posibles Lecciones.",
     removeLesson: "Remover",
     noDescription: "Sin descripción disponible.",
+    settings: "Configuración",
+    maxPoolTitle: "Número máximo de cartas en exilio",
+    maxPoolInfo: "Elije el número máximo de Lecciones que pueden estar en exilio al mismo tiempo. Si se alcanza el límite, no podrás elegir más hasta que remuevas algunas.",
+    resetDefault: "Regresar a la configuración del Cubo",
+    blacklistTitle: "Cartas baneadas",
+    blacklistInfo: "Las cartas baneadas no pueden ser seleccionadas.",
   }
 };
